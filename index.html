@@ -7,6 +7,9 @@ title: Home
   {% for post in paginator.posts %}
   <div class="post">
     <a href="{{ post.url }}" class="post-date u-url"><time class="dt-published" datetime="{{ post.date }}">{{ post.date | date_to_string }}</time></a>
+	{% if post.microblog == false %}
+		<h1 class="page-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	{% endif %}
 	<div class="e-content">
     {{ post.content }}
     </div>

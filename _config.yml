@@ -1,25 +1,10 @@
-title: "Your Name"
-tagline: ""
-description: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
-credits: "Powered by <a href=\"http://micro.blog/\">Micro.blog</a>."
-baseurl: ""
-url: "http://yourname.micro.blog"
-markdown: "kramdown"
-username: "yourname"
-permalink: "/:year/:month/:day/:title.html"
-relative_permalinks: false
-author: "Your Name"
-name: "Your Name"
-gravatar_hash: ""
-avatar: "http://www.gravatar.com/avatar/?s=160"
-full_name: "Your Name"
-bio: ""
-twitter_username: ""
-github_username: ""
-instagram_username: ""
-paginate: 20
-paginate_path: "/page/:num/"
-timezone: "US/Indiana-Starke"
+# Dependencies
+markdown:         redcarpet
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
 # Custom vars
 version:          2.1.0

@@ -2,9 +2,9 @@
 layout: default
 ---
 
-<div class="post">
+<div class="post h-entry">
   {% if page.microblog == false %}
-    <h1 class="page-title">{{ page.title }}</h1>
+    <h1 class="page-title p-name">{{ page.title }}</h1>
   {% endif %}
   <span class="post-date"><time class="dt-published" datetime="{{ page.date }}">{{ page.date | date_to_string }}</time></span>
   <div class="e-content">

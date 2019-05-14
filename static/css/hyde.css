@@ -256,3 +256,7 @@ a.sidebar-nav-item:focus {
 #post-nav .prev {
 	padding-right: 10px;
 }
+
+video {
+	max-width: 100%;
+}

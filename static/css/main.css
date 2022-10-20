@@ -112,7 +112,7 @@ ul, ol {
 .conversation-on-mb, .reply-by-email {
   border-radius: 5px;
   border: none;
-  padding: 5px;
+  padding: 10px;
   background: #ececec;
   font-weight: normal;
 }

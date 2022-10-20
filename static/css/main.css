@@ -29,6 +29,9 @@ header h1 {
 	margin: 0;
 	padding-top: 10px;
 }
+header .lead {
+	max-width: 450px;
+}
 
 .wrapper {
 	max-width: 800px;

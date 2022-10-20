@@ -132,7 +132,7 @@ footer {
 	background: var(--main-accent-color);
 	color: white;
 	text-align: center;
-	min-height: 100px;
+	padding: 20px 0;
 }
 
 footer p {margin: 0;}

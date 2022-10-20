@@ -69,3 +69,8 @@ img {
 p, h1, h2, h3, h4, h5, h6, ul, ol, blockquote, pre {
 	padding: 0 10px;
 }
+
+ul, ol {
+	margin-left: 30px;
+}
+

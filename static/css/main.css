@@ -6,16 +6,22 @@
 }
 
 body {
-	max-width:  800px;
-	margin:  0 auto;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	line-height: 1.5rem;
+}
+.container {
+	max-width:  800px;
+	margin:  0 auto;
 }
 
 header {
 	color: var(--main-background-color);
 	background: var(--main-accent-color);
 	width: 100%;
+}
+
+header a {
+	color: var(--main-background-color);
 }
 
 a {

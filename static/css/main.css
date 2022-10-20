@@ -111,6 +111,7 @@ ul, ol {
 
 .conversation-on-mb, .reply-by-email {
   border-radius: 5px;
-  border: 2px solid var(--main-accent-color);
+  border: none;
   padding: 5px;
+  background: #ececec;
 }

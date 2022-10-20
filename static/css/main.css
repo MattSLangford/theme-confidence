@@ -28,7 +28,6 @@ header a {
 header h1 {
 	margin: 0;
 	padding-top: 10px;
-	float: left;
 }
 header .lead {
 	max-width: 450px;

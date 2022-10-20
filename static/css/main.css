@@ -1,1 +1,10 @@
+:root {
+	--main-accent-color: #20343F;
+	--main-background-color: #fff;
+	--main-text-color: #000;
+}
 
+body {
+	max-width:  100px;
+	margin:  0 auto;
+}

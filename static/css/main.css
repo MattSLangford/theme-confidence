@@ -19,7 +19,7 @@ header {
 	color: var(--main-background-color);
 	background: var(--main-accent-color);
 	width: 100%;
-	padding: 50px 0;
+	padding: 25px 0;
 }
 
 header a {

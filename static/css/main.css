@@ -91,6 +91,14 @@ ul, ol {
 .microblog_post {
 	margin: 40px 0;
 }
+.microblog_user {
+	font-weight: bold;
+}
+.microblog_avatar {
+	border-radius: 5px;
+	vertical-align: middle;
+	max-width: 40px !important;
+}
 .microblog_text p {padding:  0;}
 .microblog_time a {
 	color: var(--secondary-accent-color);

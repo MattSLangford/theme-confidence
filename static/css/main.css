@@ -141,3 +141,7 @@ footer {
 	text-align: center;
 	margin-top: 50px;
 }
+
+blockquote {
+	border-left: 5px solid var(--main-accent-color);
+}

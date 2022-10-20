@@ -157,4 +157,7 @@ blockquote {
 
 hr {border: 1px solid #ececec; margin-top: 25px;}
 
-
+pre {
+	background: #ececec;
+	overflow: auto;
+}

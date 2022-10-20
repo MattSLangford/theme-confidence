@@ -12,6 +12,12 @@ body {
 	line-height: 1.5rem;
 }
 
+header {
+	color: var(--main-background-color);
+	background: var(--main-accent-color);
+	width: 100%;
+}
+
 a {
 	font-weight: bold;
 	color: var(--main-accent-color);

@@ -1,20 +1,9 @@
       <h1>
         <a href="/">
-          <span class="p-name">{{ .Site.Title }} Test</a>
+          <span class="p-name">{{ .Site.Title }}</a>
         </a>
       </h1>
       <p class="lead">{{ .Site.Params.description | safeHTML }}</p>
     </div>
-    <nav class="nav">
-		{{ range .Site.Menus.main }}
-			{{ if .Page.Params.redirect_url }}
-				<a class="sidebar-nav-item" href="{{ .Page.Params.redirect_url }}">{{ .Name }}</a>
-			{{ else }}
-				<a class="sidebar-nav-item" href="{{ .URL | relLangURL | safeURL }}">{{ .Name }}</a>
-				<!-- <a href="" class="sidebar-nav-item active"></a> -->
-			{{ end }}
-		{{ end }}
-		
-    </nav>
   </div>
 </div>

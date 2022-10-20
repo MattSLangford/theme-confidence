@@ -111,8 +111,8 @@ ul, ol {
 
 .conversation-on-mb {
   border-radius: 5px;
-  border: 3px solid var(--main-accent-color);
-  padding: 10px;
+  border: 2px solid var(--main-accent-color);
+  padding: 5px;
 }
 
 .conversation-on-mb:hover {

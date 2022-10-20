@@ -13,7 +13,6 @@ body {
 .container {
 	max-width:  800px;
 	margin:  0 auto;
-	min-height: calc(80vh - 70px);
 }
 
 header {
@@ -130,12 +129,7 @@ p.post-note {
 }
 
 footer {
-	background: var(--main-accent-color);
-	color: white;
+	border-top: 1px solid #aeaeae;
 	text-align: center;
 	padding: 20px 0;
 }
-
-footer p {margin: 0;}
-footer a {color: white; border-bottom: 2px solid white;}
-

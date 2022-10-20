@@ -85,3 +85,10 @@ ul, ol {
 	margin-left: 30px;
 }
 
+.microblog_conversation {
+	padding: 0 10px;
+}
+.microblog_time {
+	color: var(--secondary-accent-color);
+	font-size: 12px;
+}

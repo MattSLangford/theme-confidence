@@ -61,11 +61,16 @@ h1.page-title {
 	margin-top:  0.5rem;
 }
 
-a.post-date, .post-date {
+a.post-date {
 	border: none;
 	color: var(--secondary-accent-color);
 	font-weight: normal;
 	padding: 0 10px;
+}
+.post-date {
+	border: none;
+	olor: var(--secondary-accent-color);
+	font-weight: normal;
 }
 
 .post {

@@ -61,7 +61,7 @@ h1.page-title {
 	margin-top:  0.5rem;
 }
 
-a.post-date {
+a.post-date, .post-date {
 	border: none;
 	color: var(--secondary-accent-color);
 	font-weight: normal;

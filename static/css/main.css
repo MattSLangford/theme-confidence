@@ -161,3 +161,7 @@ pre {
 	background: #ececec;
 	overflow: auto;
 }
+code {background: #ececec;}
+pre code {
+	background: none;
+}

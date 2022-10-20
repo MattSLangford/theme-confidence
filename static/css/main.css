@@ -127,3 +127,12 @@ p.post-note {
 	border-left: 5px solid yellow;
 	padding: 10px;
 }
+
+footer {
+	background: var(--main-accent-color);
+	color: white;
+	text-align: center;
+}
+
+
+

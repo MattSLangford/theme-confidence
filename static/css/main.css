@@ -28,9 +28,18 @@ header a {
 header h1 {
 	margin: 0;
 	padding-top: 10px;
+	float: left;
 }
 header .lead {
 	max-width: 450px;
+}
+
+header h1 a span {
+	display: none;
+}
+
+header h1 a img {
+	width: 75px;
 }
 
 .wrapper {

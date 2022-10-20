@@ -109,12 +109,8 @@ ul, ol {
 	font-weight: normal;
 }
 
-.conversation-on-mb {
+.conversation-on-mb, .reply-by-email {
   border-radius: 5px;
   border: 2px solid var(--main-accent-color);
   padding: 5px;
-}
-
-.conversation-on-mb:hover {
-
 }

@@ -108,3 +108,20 @@ ul, ol {
 	border: none;
 	font-weight: normal;
 }
+
+.conversation-on-mb {
+  border: solid 0.15rem black;
+  border-radius: 0.4rem;
+  color: black;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.3rem 0.6rem 0 0.6rem;
+  text-decoration: none;
+}
+
+.conversation-on-mb:hover {
+  border-color: #011ac5;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  color: #011ac5;
+  text-decoration: none;
+}

@@ -97,9 +97,12 @@ ul, ol {
 .microblog_avatar {
 	border-radius: 5px;
 	vertical-align: middle;
-	max-width: 40px !important;
+	max-width: 30px !important;
 }
-.microblog_text p {padding:  0;}
+.microblog_text p {
+	padding:  0;
+	margin: 5px 0;
+}
 .microblog_time a {
 	color: var(--secondary-accent-color);
 	font-size: 12px;

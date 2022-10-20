@@ -1,5 +1,6 @@
 {{ define "main" }}
-	
+	<div class="page">
+		<h1 class="page-title">{{ .Title }}</h1>
 	{{ $list := (where .Site.Pages "Type" "post") }}
 	{{ range $list }}
 
@@ -10,5 +11,5 @@
 		</p>
 
 	{{ end }}
-
+</div>
 {{ end }}

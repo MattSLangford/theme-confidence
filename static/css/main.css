@@ -19,10 +19,14 @@ header {
 	color: var(--main-background-color);
 	background: var(--main-accent-color);
 	width: 100%;
+	padding: 50px 0;
 }
 
 header a {
 	color: var(--main-background-color);
+}
+header h1 {
+	margin: 0;
 }
 
 a {

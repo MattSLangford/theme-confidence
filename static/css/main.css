@@ -24,6 +24,7 @@ header {
 
 header a {
 	color: var(--main-background-color);
+	border-bottom: 2px solid var(--main-background-color);
 }
 header h1 {
 	margin: 0;

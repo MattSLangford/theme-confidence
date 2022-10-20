@@ -29,6 +29,11 @@ header h1 {
 	margin: 0;
 }
 
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 a {
 	font-weight: bold;
 	color: var(--main-accent-color);

@@ -91,8 +91,10 @@ ul, ol {
 .microblog_post {
 	margin: 40px 0;
 }
+.microblog_text p {padding:  0;}
 .microblog_time a {
 	color: var(--secondary-accent-color);
 	font-size: 12px;
 	border: none;
+	font-weight: normal;
 }

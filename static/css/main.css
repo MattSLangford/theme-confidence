@@ -31,6 +31,7 @@ a.post-date {
 	border: none;
 	color: var(--secondary-accent-color);
 	font-weight: normal;
+	padding: 0 10px;
 }
 
 .post {

@@ -145,3 +145,10 @@ footer {
 blockquote {
 	border-left: 5px solid var(--main-accent-color);
 }
+
+.footnote-ref, .footnote-backref {
+	border: none;
+	color: red;
+}
+
+

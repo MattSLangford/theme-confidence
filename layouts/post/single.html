@@ -10,8 +10,10 @@
 </div>
 
 {{ if .Site.Params.include_conversation }}
+<div class="comments">
 <p>{{ partial "conversation-link.html" . }} {{ partial "reply-by-email.html" . }}</p>
 <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
+</div>
 {{ end }}
 
 {{ end }}

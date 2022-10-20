@@ -88,7 +88,8 @@ ul, ol {
 .microblog_conversation {
 	padding: 0 10px;
 }
-.microblog_time {
+.microblog_time a {
 	color: var(--secondary-accent-color);
 	font-size: 12px;
+	border: none;
 }

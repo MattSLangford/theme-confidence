@@ -32,3 +32,12 @@ a.post-date {
 	color: var(--secondary-accent-color);
 	font-weight: normal;
 }
+
+.post {
+	margin: 50px 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}

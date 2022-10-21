@@ -161,6 +161,12 @@ img {
 	height: auto;
 }
 
+p img {
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
 /* SITEWIDE PADDING BY ELEMENT */
 
 p, h1, h2, h3, h4, h5, h6, ul, ol, blockquote, pre, .dt-published {

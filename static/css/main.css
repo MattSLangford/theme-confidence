@@ -63,15 +63,22 @@ header h1 a img {
 
 header ul {
 	list-style-type: none;
+	margin: 0;
+	font-size: 1.4em;
 }
 
 header ul li {
 	display: inline;
+	padding-right: 10px;
 }
 
 header ul li a {
 	text-decoration: none;
 	border: none;
+}
+
+header ul li a:hover {
+	opacity: 0.8;
 }
 
 /* LINKS */

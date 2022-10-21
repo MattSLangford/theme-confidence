@@ -61,6 +61,10 @@ a {
 	border-bottom: 2px solid var(--main-accent-color);
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Merriweather Sans, sans-serif;
+}
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	border-bottom: none;
 }

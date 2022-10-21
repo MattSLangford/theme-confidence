@@ -120,13 +120,11 @@ ul, ol {
 	font-weight: bold;
 }
 .microblog_avatar {
-	border-radius: 5px;
-	vertical-align: middle;
-	max-width: 30px !important;
+	display:  none;
 }
 .microblog_text p {
 	padding:  0;
-	margin: 5px 0;
+	margin: 0;
 }
 .microblog_time a {
 	color: var(--secondary-accent-color);

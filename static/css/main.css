@@ -207,7 +207,7 @@ li {
 }
 
 .microblog_time a:after {
-	content: 'Link';
+	content: ' ⌘';
 }
 
 .conversation-on-mb, .reply-by-email {

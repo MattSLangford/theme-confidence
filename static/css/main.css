@@ -197,13 +197,13 @@ li {
 }
 .microblog_time a {
 	color: var(--secondary-accent-color);
-	font-size: 12px;
+	font-size: .8em;
 	border: none;
 	font-weight: normal;
 }
 
 .microblog_time a:after {
-	content: ' ⌘';
+	content: ' →';
 }
 
 .conversation-on-mb, .reply-by-email {

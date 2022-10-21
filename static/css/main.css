@@ -15,11 +15,6 @@ body {
 	line-height: 1.7;
 	margin: 0;
 	font-weight: 300;
-	background-color: yellow;
-}
-.body-back {
-	width: 100%;
-	background-color: #fff;
 }
 
 .container {
@@ -162,7 +157,6 @@ footer {
 	border-top: 1px solid #ececec;
 	text-align: center;
 	margin-top: 50px;
-	height: fit-content;
 }
 
 blockquote {

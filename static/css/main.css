@@ -63,6 +63,9 @@ header h1 a img {
 
 header ul {
 	list-style-type: none;
+}
+
+header ul li {
 	display: inline;
 }
 

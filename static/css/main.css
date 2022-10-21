@@ -62,7 +62,8 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Merriweather Sans, sans-serif;
+	font-family: merriweather-sans, sans-serif;
+	font-weight: 800;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {

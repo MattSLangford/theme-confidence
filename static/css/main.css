@@ -197,7 +197,6 @@ li {
 }
 .microblog_time a {
 	color: var(--secondary-accent-color);
-	font-size: .8em;
 	border: none;
 	font-weight: normal;
 }

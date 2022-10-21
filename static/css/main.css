@@ -75,6 +75,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
 	font-family: merriweather-sans, sans-serif;
 	font-weight: 800;
+	line-height: 1.2em;
 }
 
 h1 {
@@ -84,12 +85,10 @@ h1 {
 
 h2 {
 	font-size: 1.8em;
-	line-height: 1.2em;
 }
 
 h3 {
 	font-size: 1.6em;
-	line-height: 1.2em;
 }
 
 h4 {

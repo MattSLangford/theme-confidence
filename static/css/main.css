@@ -1,3 +1,5 @@
+/* VARIABLES */
+
 :root {
 	--main-accent-color: #20343F;
 	--main-background-color: #fff;
@@ -5,9 +7,12 @@
 	--secondary-accent-color: #AEAEAE;
 }
 
+/* BASIC SETTINGS */
+
 html {
 	webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
+	font-size: 1em;
 }
 
 body {
@@ -21,6 +26,13 @@ body {
 	max-width:  750px;
 	margin:  0 auto;
 }
+
+.wrapper {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+/* HEADER */
 
 header {
 	color: var(--main-background-color);
@@ -49,10 +61,7 @@ header h1 a img {
 	width: 75px;
 }
 
-.wrapper {
-	max-width: 750px;
-	margin: 0 auto;
-}
+/* LINKS */
 
 a {
 	font-weight: bold;
@@ -60,6 +69,8 @@ a {
 	text-decoration: none;
 	border-bottom: 1px solid var(--main-accent-color);
 }
+
+/* HEADERS */
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: merriweather-sans, sans-serif;
@@ -80,35 +91,52 @@ h1.page-title {
 	letter-spacing: -.1rem;
 }
 
+/* META/BYLINES */
+
 a.post-date, .post-date {
 	border: none;
 	color: var(--secondary-accent-color);
 	font-weight: normal;
 }
 
+a span.dt-published {
+	padding: 0;
+}
+
+/* POST SPACING */
+
 .post {
 	margin: 50px 0;
 }
+
+/* MAKE IMAGES FULL WIDTH */
 
 img {
 	width: 100%;
 	height: auto;
 }
 
+/* SITEWIDE PADDING BY ELEMENT */
+
 p, h1, h2, h3, h4, h5, h6, ul, ol, blockquote, pre, .dt-published {
 	padding: 0 10px;
 }
+
+/* ElIMINATE TOP MARGIN OF FIRST PARAGRAPH OF EACH POST */
 .e-content p:first-of-type {
 	margin-top: 0;
 }
 
-a span.dt-published {
-	padding: 0;
-}
-
+/* LISTS */
 ul, ol {
 	margin-left: 30px;
 }
+
+li {
+	margin-bottom: 5px;
+}
+
+/* COMMENTS SECTION */
 
 .microblog_conversation {
 	padding: 0 10px;
@@ -141,9 +169,7 @@ ul, ol {
   font-weight: normal;
 }
 
-li {
-	margin-bottom: 5px;
-}
+/* NOTE PARAGRAPH STYLE */
 
 p.post-note {
 	background: #ffffe0;
@@ -151,22 +177,10 @@ p.post-note {
 	padding: 10px;
 }
 
-footer {
-	border-top: 1px solid #ececec;
-	margin-top: 50px;
-}
+/* ELEMENTS */
 
 blockquote {
 	border-left: 5px solid var(--main-accent-color);
-}
-
-.footnote-ref, .footnote-backref {
-	border: none;
-}
-.footnote-ref {
-	background: #ececec;
-	border-radius: 5px;
-	padding: 0 2px;
 }
 
 hr {border: 1px solid #ececec; margin-top: 25px;}
@@ -175,7 +189,28 @@ pre {
 	background: #ececec;
 	overflow: auto;
 }
-code {background: #ececec;}
+
+code {
+	background: #ececec;
+}
+
 pre code {
 	background: none;
+}
+
+.footnote-ref, .footnote-backref {
+	border: none;
+}
+
+.footnote-ref {
+	background: #ececec;
+	border-radius: 5px;
+	padding: 0 2px;
+}
+
+/* FOOTER STYLING */
+
+footer {
+	border-top: 1px solid #ececec;
+	margin-top: 50px;
 }

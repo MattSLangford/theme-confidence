@@ -182,6 +182,11 @@ li {
 .microblog_conversation {
 	padding: 0 15px;
 }
+
+.microblog_conversation .microblog_post:first-of-type {
+	margin-top: 50px;
+}
+
 .microblog_post {
 	margin: 25px 0;
 }

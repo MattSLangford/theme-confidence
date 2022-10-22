@@ -53,7 +53,7 @@ header h1 a {
 	color: black;
 }
 header .lead {
-	max-width: 450px;
+	/*max-width: 450px;*/
 }
 
 header .logo {

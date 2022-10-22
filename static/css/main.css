@@ -226,8 +226,9 @@ li {
   border-radius: 5px;
   border: none;
   padding: 10px;
-  background: #ececec;
+  background: #0561d1;
   font-weight: normal;
+  color: white;
 }
 
 /* NOTE PARAGRAPH STYLE */

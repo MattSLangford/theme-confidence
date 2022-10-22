@@ -88,6 +88,7 @@ a {
 }
 a:hover {
 	color: #cb3b69;
+	transition: 0.5s;
 }
 
 /* HEADERS */

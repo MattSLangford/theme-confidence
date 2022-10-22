@@ -80,10 +80,6 @@ header ul li a {
 	border: none;
 }
 
-header ul li a:hover {
-	opacity: 0.8;
-}
-
 /* LINKS */
 
 a {

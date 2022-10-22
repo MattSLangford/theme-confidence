@@ -141,6 +141,8 @@ a.post-date, .post-date {
 	border: none;
 	color: var(--secondary-accent-color);
 	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
 }
 
 a span.dt-published {

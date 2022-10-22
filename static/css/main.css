@@ -90,6 +90,9 @@ a {
 	color: #0561d1;
 	text-decoration: none;
 }
+a:hover {
+	color: #cb3b69;
+}
 
 /* HEADERS */
 
@@ -148,6 +151,10 @@ a.post-date, .post-date {
 
 a span.dt-published {
 	padding: 0;
+}
+
+a.post-date:hover, a span.dt-published:hover {
+	color: var(--secondary-accent-color);
 }
 
 /* POST SPACING */

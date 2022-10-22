@@ -235,6 +235,10 @@ li {
   color: white;
   font-size: 16px;
 }
+.conversation-on-mb, .reply-by-email {
+	background: #cb3b69;
+	color: white;
+}
 
 /* NOTE PARAGRAPH STYLE */
 

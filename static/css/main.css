@@ -58,6 +58,9 @@ header .lead {
 header h1 a span {
 }
 
+header .logo {
+	padding-left: 15px;
+}
 header a img {
 	width: 50px;
 	border-radius: 75px;

@@ -225,7 +225,7 @@ li {
 .conversation-on-mb, .reply-by-email {
   border-radius: 12px;
   border: none;
-  padding: 8px;
+  padding: 8px 12px;
   background: #0561d1;
   font-weight: normal;
   color: white;

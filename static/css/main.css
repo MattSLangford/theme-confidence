@@ -254,7 +254,19 @@ blockquote {
 	border-left: 5px solid #0561d1;
 }
 
-hr {border: 1px solid #ececec; margin-top: 25px;}
+hr {
+  background: none;
+  border: 0;
+  margin: 0.5em 0;
+  padding: 0;
+}
+hr::after {
+  content: '⁂';
+  display: block;
+  opacity: 0.8;
+  line-height: 1;
+  text-align: center;
+}
 
 pre {
 	background: #ececec;

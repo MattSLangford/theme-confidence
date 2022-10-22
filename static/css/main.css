@@ -261,7 +261,7 @@ hr {
   padding: 0;
 }
 hr::after {
-  content: '⁂';
+  content: '***';
   display: block;
   opacity: 0.8;
   line-height: 1;

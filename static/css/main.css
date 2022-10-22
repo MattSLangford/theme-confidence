@@ -251,6 +251,7 @@ blockquote {
 	background: #F2F2F6;
 	padding: 10px;
 	margin:  0;
+	border-radius: 25px;
 }
 blockquote p {
 	padding-left: 15px;

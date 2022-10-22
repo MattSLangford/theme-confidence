@@ -41,8 +41,8 @@ header {
 }
 
 header a {
-	color: var(--main-accent-color);
-	border-bottom: 1px solid var(--main-accent-color);
+	color: #0561d1;
+	border-bottom: 1px solid #0561d1;
 }
 header h1 {
 	margin: 0;
@@ -88,16 +88,16 @@ header ul li a:hover {
 
 a {
 	font-weight: bold;
-	color: var(--main-accent-color);
+	color: #0561d1;
 	text-decoration: none;
-	border-bottom: 1px solid var(--main-accent-color);
+	border-bottom: 1px solid #0561d1;
 }
 
 /* HEADERS */
 
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2em;
-	color: var(--main-accent-color);
+	color: #000;
 }
 
 h1 {
@@ -240,7 +240,7 @@ p.post-note {
 /* ELEMENTS */
 
 blockquote {
-	border-left: 5px solid var(--main-accent-color);
+	border-left: 5px solid #0561d1;
 }
 
 hr {border: 1px solid #ececec; margin-top: 25px;}

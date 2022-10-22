@@ -25,6 +25,7 @@ body {
 .container {
 	max-width:  860px;
 	margin:  0 auto;
+	padding: 0 15px;
 }
 
 .wrapper {
@@ -161,19 +162,14 @@ a span.dt-published {
 img {
 	width: 100%;
 	height: auto;
-}
-
-p img {
-	width: calc(100% + 30px);
-	margin-left: -15px;
-	margin-right: -15px;
+	border-radius: 25px;
 }
 
 /* SITEWIDE PADDING BY ELEMENT */
 
-p, h1, h2, h3, h4, h5, h6, ul, ol, blockquote, pre, .dt-published {
+/*p, h1, h2, h3, h4, h5, h6, ul, ol, blockquote, pre, .dt-published {
 	padding: 0 15px;
-}
+}*/
 
 /* ElIMINATE TOP MARGIN OF FIRST PARAGRAPH OF EACH POST */
 .e-content p:first-of-type {

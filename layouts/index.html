@@ -10,7 +10,7 @@
 		<h1 class="page-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 	{{ end }}
 	<div class="e-content">
-		{{ .Summary | safeHTML }}
+		<p>{{ .Summary | safeHTML }}</p>
     </div>
   </div>
 

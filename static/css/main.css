@@ -61,6 +61,7 @@ header h1 a span {
 
 header h1 a img {
 	width: 75px;
+	border-radius: 75px;
 }
 
 header ul {

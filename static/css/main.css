@@ -37,7 +37,7 @@ header {
 	color: var(--main-accent-color);
 	background: var(--main-background-color);
 	width: 100%;
-	padding: 25px 0;
+	padding: 25px 0 0 0;
 }
 
 header a {
@@ -122,10 +122,6 @@ h5 {
 
 h6 {
 	font-size: 1em;
-}
-
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-	border-bottom: 3px solid;
 }
 
 .page h1.page-title {

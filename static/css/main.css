@@ -216,6 +216,9 @@ li {
 	color: var(--secondary-accent-color);
 	border: none;
 	font-weight: normal;
+	font-size: 15px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
 }
 
 .microblog_time a:after {

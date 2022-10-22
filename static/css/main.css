@@ -55,7 +55,7 @@ header h1 a {
 	color: black;
 }
 header .lead {
-	/*max-width: 450px;*/
+	margin-bottom: 10px;
 }
 
 header a img {

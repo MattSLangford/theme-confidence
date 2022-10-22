@@ -263,9 +263,9 @@ hr {
 hr::after {
   content: '***';
   display: block;
-  opacity: 0.8;
   line-height: 1;
   text-align: center;
+  color: #0561d1;
 }
 
 pre {

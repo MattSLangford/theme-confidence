@@ -70,6 +70,7 @@ header ul {
 	list-style-type: none;
 	margin: 0;
 	font-size: 1.4em;
+	padding: 0;
 }
 
 header ul li {

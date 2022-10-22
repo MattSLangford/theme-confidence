@@ -180,9 +180,6 @@ img {
 }
 
 /* LISTS */
-ul, ol {
-	margin-left: 30px;
-}
 
 li {
 	margin-bottom: 5px;
@@ -252,6 +249,9 @@ p.post-note {
 
 blockquote {
 	border-left: 5px solid #0561d1;
+}
+blockquote p {
+	padding-left: 15px;
 }
 
 hr {

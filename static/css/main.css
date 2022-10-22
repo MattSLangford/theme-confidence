@@ -235,8 +235,11 @@ li {
   color: white;
   font-size: 16px;
 }
-.conversation-on-mb, .reply-by-email {
+.conversation-on-mb:hover, .reply-by-email:hover {
 	background: #cb3b69;
+	color: white;
+}
+.conversation-on-mb a:hover, .reply-by-email a:hover {
 	color: white;
 }
 

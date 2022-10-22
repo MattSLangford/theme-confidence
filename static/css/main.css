@@ -34,15 +34,15 @@ body {
 /* HEADER */
 
 header {
-	color: var(--main-background-color);
-	background: var(--main-accent-color);
+	color: var(--main-accent-color);
+	background: var(--main-background-color);
 	width: 100%;
 	padding: 25px 0;
 }
 
 header a {
-	color: var(--main-background-color);
-	border-bottom: 1px solid var(--main-background-color);
+	color: var(--main-accent-color);
+	border-bottom: 1px solid var(--main-accent-color);
 }
 header h1 {
 	margin: 0;

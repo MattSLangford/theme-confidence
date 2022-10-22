@@ -50,13 +50,10 @@ header h1 {
 }
 header h1 a {
 	border: none;
+	color: black;
 }
 header .lead {
 	max-width: 450px;
-}
-
-header h1 a span {
-	color: black;
 }
 
 header .logo {

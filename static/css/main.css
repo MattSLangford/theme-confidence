@@ -56,10 +56,9 @@ header .lead {
 }
 
 header h1 a span {
-	display: none;
 }
 
-header h1 a img {
+header a img {
 	width: 50px;
 	border-radius: 75px;
 }

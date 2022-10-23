@@ -229,13 +229,13 @@ li {
   color: white;
   font-size: 16px;
 }
-.conversation-on-mb:hover, .reply-by-email:hover {
+.conversation-on-mb:hover, .reply-by-email:hover, .finish-reading:hover {
 	background: #cb3b69;
 	color: white;
 }
-.conversation-on-mb a:hover, .reply-by-email a:hover {
+/*.conversation-on-mb a:hover, .reply-by-email a:hover, .finish-reading a:hover {
 	color: white;
-}
+}*/
 
 /* NOTE PARAGRAPH STYLE */
 

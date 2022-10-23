@@ -220,7 +220,7 @@ li {
 	content: ' →';
 }
 
-.conversation-on-mb, .reply-by-email {
+.conversation-on-mb, .reply-by-email, .finish-reading {
   border-radius: 12px;
   border: none;
   padding: 8px 12px;

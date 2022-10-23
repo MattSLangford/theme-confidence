@@ -245,6 +245,7 @@ p.post-note {
 	background: #ffffe0;
 	padding: 10px;
 	border-radius: 25px;
+	border: 1px solid yellow;
 }
 
 /* ELEMENTS */

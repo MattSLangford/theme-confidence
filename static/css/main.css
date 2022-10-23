@@ -243,8 +243,8 @@ li {
 
 p.post-note {
 	background: #ffffe0;
-	border-left: 5px solid yellow;
 	padding: 10px;
+	border-radius: 25px;
 }
 
 /* ELEMENTS */

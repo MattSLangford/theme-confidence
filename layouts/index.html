@@ -9,7 +9,7 @@
 	{{ if .Title }}
 		<h1 class="page-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 		<div class="e-content">
-		{{ .Summary }}
+		<p>{{ .Summary }}</p>
 		<p><a class="finish-reading" href="{{ .Permalink }}">Finish Reading</a></p>
     </div>
   {{ else }}

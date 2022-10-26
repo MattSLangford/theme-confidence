@@ -305,6 +305,12 @@ pre code {
 	color: white;
 }
 
+input {
+	border: none;
+	padding: 8px 9px;
+	border-radius: 25px;
+}
+
 /* FOOTER STYLING */
 
 footer {

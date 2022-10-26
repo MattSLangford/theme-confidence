@@ -321,6 +321,8 @@ input[type=submit] {
 }
 input[type=submit]:hover {
 	background: #cb3b69;
+	transition: all 0.2s;
+	cursor: pointer;
 }
 
 form {

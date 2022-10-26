@@ -296,6 +296,15 @@ pre code {
 	padding: 0 2px;
 }
 
+/* SUBSCRIBE */
+
+.subscribe {
+	background: #0561d1;
+	border-radius: 25px;
+	padding: 10px;
+	color: white;
+}
+
 /* FOOTER STYLING */
 
 footer {

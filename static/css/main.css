@@ -229,7 +229,7 @@ li {
   background: #0561d1;
   font-weight: normal;
   color: white;
-  font-size: 16px;
+  font-size: 1em;
 }
 .conversation-on-mb:hover, .reply-by-email:hover, .finish-reading:hover {
 	background: #cb3b69;

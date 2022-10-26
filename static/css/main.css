@@ -312,6 +312,9 @@ input {
 	font-size: 1em;
 	height: 32px;
 }
+input[type=submit] {
+	box-sizing: initial;
+}
 
 form {
 	margin-bottom: 1em;

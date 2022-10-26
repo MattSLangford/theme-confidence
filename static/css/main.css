@@ -309,6 +309,8 @@ input {
 	border: none;
 	padding: 3px 10px;
 	border-radius: 10px;
+	font-size: 1em;
+	height: 32px;
 }
 
 form {

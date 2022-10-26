@@ -18,18 +18,17 @@
     </div>
   </div>
 	{{ end }}
-
-<div class="post-nav">
-    {{ if $pag.HasPrev }}
+	<div class="post-nav">
+    {{ if $paginator.HasPrev }}
         <span class="prev">
-			<a href="{{ $pag.Prev.URL }}" title="Previous Page">
+			<a href="{{ $paginator.Prev.URL }}" title="Previous Page">
 				<span class="arrow">←</span> Newer Posts
 			</a>
         </span>
     {{ end }}
-    {{ if $pag.HasNext }}
+    {{ if $paginator.HasNext }}
         <span class="next">
-            <a href="{{ $pag.Next.URL }}">
+            <a href="{{ $paginator.Next.URL }}">
                 Older Posts <span class="arrow">→</span>
             </a>
         </span>

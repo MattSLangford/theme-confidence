@@ -312,6 +312,7 @@ input {
 	font-size: 1em;
 	height: 32px;
 	-webkit-appearance: none;
+	margin-top: 10px;
 }
 input[type=submit] {
 	box-sizing: initial;

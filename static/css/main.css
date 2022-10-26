@@ -230,16 +230,12 @@ li {
   font-weight: normal;
   color: white;
   font-size: 1em;
-  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 .conversation-on-mb:hover, .reply-by-email:hover, .finish-reading:hover {
 	background: #cb3b69;
 	color: white;
-	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
-/*.conversation-on-mb a:hover, .reply-by-email a:hover, .finish-reading a:hover {
-	color: white;
-}*/
+
 
 /* NOTE PARAGRAPH STYLE */
 

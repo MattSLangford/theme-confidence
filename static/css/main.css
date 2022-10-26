@@ -301,7 +301,7 @@ pre code {
 .subscribe {
 	background: #0561d1;
 	border-radius: 25px;
-	padding: 10px;
+	padding: 10px 25px;
 	color: white;
 }
 

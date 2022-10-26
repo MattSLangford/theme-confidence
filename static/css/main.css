@@ -318,6 +318,7 @@ input[type=submit] {
 	box-sizing: initial;
 	background: #21417a;
 	color: white;
+	font-weight: normal;
 }
 input[type=submit]:hover {
 	background: #cb3b69;

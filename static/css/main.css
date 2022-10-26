@@ -311,6 +311,7 @@ input {
 	border-radius: 10px;
 	font-size: 1em;
 	height: 32px;
+	-webkit-appearance: none;
 }
 input[type=submit] {
 	box-sizing: initial;

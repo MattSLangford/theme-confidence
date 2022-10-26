@@ -189,12 +189,8 @@ li {
 
 /* COMMENTS SECTION */
 
-.microblog_conversation .microblog_post:first-of-type {
-	margin-top: 50px;
-}
-
 .microblog_post {
-	margin: 25px 0;
+	margin: 15px 0;
 	padding: 25px;
 	background: #F2F2F6;
 	border-radius: 15px;

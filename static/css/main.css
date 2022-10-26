@@ -276,6 +276,8 @@ hr::after {
 pre {
 	background: #ececec;
 	overflow: auto;
+	padding: 10px 25px;
+	border-radius: 15px;
 }
 
 code {

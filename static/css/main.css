@@ -307,8 +307,12 @@ pre code {
 
 input {
 	border: none;
-	padding: 8px 9px;
-	border-radius: 25px;
+	padding: 3px 10px;
+	border-radius: 10px;
+}
+
+form {
+	margin-bottom: 1em;
 }
 
 /* FOOTER STYLING */

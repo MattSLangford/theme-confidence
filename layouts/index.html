@@ -18,7 +18,8 @@
     </div>
   </div>
 	{{ end }}
-	<div class="post-nav">
+{{ end }}
+<div class="post-nav">
     {{ if $paginator.HasPrev }}
         <span class="prev">
 			<a href="{{ $paginator.Prev.URL }}" title="Previous Page">
@@ -29,13 +30,11 @@
     {{ if $paginator.HasNext }}
         <span class="next">
             <a href="{{ $paginator.Next.URL }}">
-                Older Posts <span class="arrow">→</span>
+                Olderr Posts <span class="arrow">→</span>
             </a>
         </span>
     {{ end }}
 </div>
-
-{{ end }}
 
 </div>
 <div class="subscribe">

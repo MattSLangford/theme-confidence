@@ -23,13 +23,13 @@ body {
 }
 
 .container {
-	max-width:  860px;
+	max-width:  760px;
 	margin:  0 auto;
 	padding: 0 15px;
 }
 
 .wrapper {
-	max-width: 860px;
+	max-width: 760px;
 	margin: 0 auto;
 	padding: 0 15px;
 }

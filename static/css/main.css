@@ -61,7 +61,7 @@ header h1 {
 }
 header h1 a {
 	border: none;
-	color: black;
+	color: var(--main-header-color);
 }
 header .lead {
 	margin-bottom: 10px;

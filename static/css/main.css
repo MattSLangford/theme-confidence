@@ -217,12 +217,12 @@ li {
 .microblog_avatar {
 	
 }
-.microblog_avatar img {
+img.microblog_avatar {
 	width: 30px !important;
 	border-radius: 30px;
 	vertical-align: middle;
 }
-.microblog_avatar .microblog_fullname {
+.microblog_user .microblog_fullname {
 	vertical-align: middle;
 }
 .microblog_text p {

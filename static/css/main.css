@@ -208,6 +208,8 @@ li {
 .microblog_text img {
 	max-height: 500px;
 	width: auto;
+	display: block;
+	margin: 10px 0;
 }
 .microblog_user {
 	font-weight: bold;

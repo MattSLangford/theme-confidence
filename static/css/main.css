@@ -213,10 +213,11 @@ li {
 }
 .microblog_user {
 	font-weight: bold;
+	padding-bottom:10px;
 }
 
 .microblog_avatar {
-	max-width: 25px !important;
+	max-width: 40px !important;
 	border-radius: 30px;
 	vertical-align: middle;
 }

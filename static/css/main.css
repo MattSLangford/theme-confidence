@@ -203,6 +203,11 @@ li {
 	padding: 25px;
 	background: var(--secondary-background-color);
 	border-radius: 15px;
+	max-width: 500px;
+}
+.microblog_post img {
+	max-height:;
+	width: auto;
 }
 .microblog_user {
 	font-weight: bold;

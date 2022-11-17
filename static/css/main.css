@@ -335,11 +335,11 @@ footer .container:hover {
 :root {
 	--main-accent-color: #20343F;
 	--main-background-color: #1D2531;
-	--main-text-color: #20343F;
+	--main-text-color: #fff;
 	--secondary-accent-color: #AEAEAE;
 	--main-link-color: #3979cc;
 	--main-link-hover-color: #cb3b69;
-	--main-header-color:  #000;
+	--main-header-color:  #fff;
 	--secondary-background-color: #F2F2F6;
 	--button-text-color: #fff;
 	--note-background: #ffffe0;

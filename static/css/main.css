@@ -3,8 +3,15 @@
 :root {
 	--main-accent-color: #20343F;
 	--main-background-color: #fff;
-	--main-text-color: #000;
+	--main-text-color: #20343F;
 	--secondary-accent-color: #AEAEAE;
+	--main-link-color: #3979cc;
+	--main-link-hover-color: #cb3b69;
+	--main-header-color:  #000;
+	--secondary-background-color: #F2F2F6;
+	--button-text-color: #fff;
+	--note-background: #ffffe0;
+	--hr-color: #0561d1;
 }
 
 /* BASIC SETTINGS */
@@ -37,14 +44,14 @@ body {
 /* HEADER */
 
 header {
-	color: var(--main-accent-color);
+	color: var(--main-text-color);
 	background: var(--main-background-color);
 	width: 100%;
 	padding: 25px 0 0 0;
 }
 
 header a {
-	color: #3979cc;
+	color: var(--main-link-color);
 }
 header h1 {
 	margin: 0;
@@ -83,11 +90,11 @@ header ul li a {
 /* LINKS */
 
 a {
-	color: #3979cc;
+	color: var(--main-link-color);
 	text-decoration: none;
 }
 a:hover {
-	color: #cb3b69;
+	color: var(--main-link-hover-color);
 	transition: all 0.2s;
 }
 
@@ -95,7 +102,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1.2em;
-	color: #000;
+	color: var(--main-header-color);
 	margin-bottom: 0;
 }
 
@@ -192,7 +199,7 @@ li {
 .microblog_post {
 	margin: 15px 0;
 	padding: 25px;
-	background: #F2F2F6;
+	background: var(--secondary-background-color);
 	border-radius: 15px;
 }
 .microblog_user {
@@ -222,21 +229,21 @@ li {
   border-radius: 12px;
   border: none;
   padding: 8px 12px;
-  background: #3979cc;
+  background: var(--main-link-color);
   font-weight: normal;
   color: white;
   font-size: 1em;
 }
 .conversation-on-mb:hover, .reply-by-email:hover, .finish-reading:hover {
-	background: #cb3b69;
-	color: white;
+	background: var(--main-link-hover-color);
+	color: var(--button-text-color);
 }
 
 
 /* NOTE PARAGRAPH STYLE */
 
 p.post-note {
-	background: #ffffe0;
+	background: var(--note-background);
 	padding: 10px 25px;
 	border-radius: 15px;
 }
@@ -244,7 +251,7 @@ p.post-note {
 /* ELEMENTS */
 
 blockquote {
-	background: #F2F2F6;
+	background: var(--secondary-background-color);
 	padding: 10px;
 	margin:  0;
 	border-radius: 15px;
@@ -266,18 +273,18 @@ hr::after {
   display: block;
   line-height: 1;
   text-align: center;
-  color: #0561d1;
+  color: var(--hr-color);
 }
 
 pre {
-	background: #F2F2F6;
+	background: var(--secondary-background-color);
 	overflow: auto;
 	padding: 10px 25px;
 	border-radius: 15px;
 }
 
 code {
-	background: #F2F2F6;
+	background: var(--secondary-background-color);
 }
 
 pre code {
@@ -289,44 +296,9 @@ pre code {
 }
 
 .footnote-ref {
-	background: #F2F2F6;
+	background: var(--secondary-background-color);
 	border-radius: 5px;
 	padding: 0 2px;
-}
-
-/* SUBSCRIBE */
-
-.subscribe {
-	background: #3979cc;
-	border-radius: 15px;
-	padding: 10px 25px;
-	color: white;
-}
-
-input {
-	border: none;
-	padding: 3px 10px;
-	border-radius: 12px;
-	font-size: 1em;
-	height: 32px;
-	-webkit-appearance: none;
-	margin-top: 10px;
-	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
-}
-input[type=submit] {
-	box-sizing: initial;
-	background: #21417a;
-	color: white;
-	font-weight: normal;
-}
-input[type=submit]:hover {
-	background: #cb3b69;
-	transition: all 0.2s;
-	cursor: pointer;
-}
-
-form {
-	margin-bottom: 1em;
 }
 
 /* FOOTER STYLING */
@@ -362,8 +334,15 @@ footer .container:hover {
 :root {
 	--main-accent-color: #20343F;
 	--main-background-color: #1D2531;
-	--main-text-color: #fff;
+	--main-text-color: #20343F;
 	--secondary-accent-color: #AEAEAE;
+	--main-link-color: #3979cc;
+	--main-link-hover-color: #cb3b69;
+	--main-header-color:  #000;
+	--secondary-background-color: #F2F2F6;
+	--button-text-color: #fff;
+	--note-background: #ffffe0;
+	--hr-color: #0561d1;
 }
 }
 

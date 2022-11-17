@@ -205,8 +205,9 @@ li {
 	border-radius: 15px;
 	max-width: 500px;
 }
-.microblog_post img {
-	
+.microblog_text img {
+	max-height: 500px;
+	width: auto;
 }
 .microblog_user {
 	font-weight: bold;

@@ -220,6 +220,10 @@ li {
 .microblog_avatar img {
 	width: 30px !important;
 	border-radius: 30px;
+	vertical-align: middle;
+}
+.microblog_avatar .microblog_fullname {
+	vertical-align: middle;
 }
 .microblog_text p {
 	padding:  0;

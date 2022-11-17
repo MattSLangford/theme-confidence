@@ -217,6 +217,10 @@ li {
 .microblog_avatar {
 	
 }
+.microblog_avatar img {
+	width: 30px !important;
+	border-radius: 30px;
+}
 .microblog_text p {
 	padding:  0;
 	margin: 0;

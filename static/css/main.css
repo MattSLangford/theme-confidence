@@ -214,11 +214,9 @@ li {
 .microblog_user {
 	font-weight: bold;
 }
+
 .microblog_avatar {
-	
-}
-img.microblog_avatar {
-	width: 30px !important;
+	max-width: 25px !important;
 	border-radius: 30px;
 	vertical-align: middle;
 }

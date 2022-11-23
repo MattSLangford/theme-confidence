@@ -364,6 +364,10 @@ footer .container:hover {
 
 /* PHOTOS PAGE */
 
+.container:has(> .photos-grid) {
+	max-width: 100%;
+}
+
 .photos-grid * {
   box-sizing: border-box;
 }

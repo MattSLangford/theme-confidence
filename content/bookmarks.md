@@ -6,4 +6,4 @@ type: bookmarks
 
 Will this work?
 
-<script language="javascript" src="http://pinboard.in//widgets/v1/linkroll/?user=Matt425&count=40"></script>
+<script language="javascript" src="https://pinboard.in//widgets/v1/linkroll/?user=Matt425&count=40"></script>

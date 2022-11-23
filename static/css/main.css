@@ -408,6 +408,7 @@ Masonry:
   gap: 1rem;
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
+  margin-top: 60px;
 }
 
 .photos-grid.photos-grid--visible-desktop {
@@ -417,7 +418,6 @@ Masonry:
 .photos-grid__column {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
 .photos-grid--style-masonry .photos-grid__item img {

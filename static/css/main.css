@@ -448,3 +448,7 @@ Masonry:
     display: none;
   }
 }
+
+.pin-tag {
+	display: none;
+}

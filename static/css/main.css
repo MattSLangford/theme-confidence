@@ -362,6 +362,9 @@ footer .container:hover {
 }
 }
 
+.photos-grid-container {
+	margin-top: 60px;
+}
 @media only screen and (max-width: 800px) {
 	.photos-grid-container {
 		margin-right: 20px;

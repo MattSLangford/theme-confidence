@@ -453,6 +453,7 @@ Masonry:
 	background: var(--secondary-background-color);
 	padding: 10px;
 	border-radius: 15px;
+	margin-top: 10px;
 }
 
 .pinboard li a {
@@ -464,4 +465,7 @@ Masonry:
 .pinboard li {
 	list-style-type: none;
 	margin-bottom: 1.5em;
+}
+.more {
+	text-align: right;
 }

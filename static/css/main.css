@@ -449,6 +449,12 @@ Masonry:
   }
 }
 
+.pinboard {
+	background: var(--secondary-background-color);
+	padding: 10px;
+	border-radius: 15px;
+}
+
 .pinboard li a {
 	display: block;
 }

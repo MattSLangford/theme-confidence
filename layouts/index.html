@@ -36,7 +36,7 @@
     <div class="widget-content">
     {{ range .Site.Data.bookshelves.currentlyreading }}
    <a href="https://micro.blog/books/{{ .isbn }}">
-    <img src="{{ .cover_url }}"> {{ .title }} by {{ .author }}
+    <img class="bookshelf-cover" src="{{ .cover_url }}"> <p class="bookshelf-title">{{ .title }}</p> <p class="bookshelf-author">by {{ .author }}</p>
    </a>
     {{ end }}
     </div>

@@ -512,4 +512,7 @@ Masonry:
 	.bookshelf, .movies {
 		grid-column:1/5;
 	}
+	.movies {
+		grid-row: 3;
+	}
 }

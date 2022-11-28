@@ -508,6 +508,10 @@ Masonry:
 	text-align: right;
 }
 
+.rss-box ul {
+	list-style-type: none;
+}
+
 @media only screen and (max-width: 750px) {
 	.bookshelf, .movies {
 		grid-column:1/5;

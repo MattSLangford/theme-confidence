@@ -1,6 +1,8 @@
 {{ define "main" }}
 	<div class="page">
 		<h1 class="page-title">{{ .Title }}</h1>
+		<p>The following is the full list of all content posted to this site. Click the date or title to see more details and/or images.</p>
+		<p>📖 Long Form Posts</p>
 	{{ $list := (where .Site.Pages "Type" "post") }}
 	{{ range $list }}
 

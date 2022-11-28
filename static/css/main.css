@@ -466,15 +466,24 @@ Masonry:
 	grid-column: 1/3;
 	grid-row: 2;
 }
+.bookshelf img.bookshelf-cover {
+	border-radius: 0;
+	max-width: 80px;
+	height: auto;
+}
+.bookshelf p.bookshelf-title {
+	font-weight: bold;
+	display: block;
+}
+.bookshelf p.bookshelf-author {
+
+}
+
 .movies {
 	grid-column: 3/5;
 	grid-row: 2;
 }
-.bookshelf img {
-	border-radius: 0;
-	max-width: 100px;
-	height: auto;
-}
+
 .pinboard ul {
 	background: var(--secondary-background-color);
 	padding: 1em;

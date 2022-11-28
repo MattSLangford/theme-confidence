@@ -465,10 +465,15 @@ Masonry:
 }
 .pinboard ul {
 	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .pinboard li {
 	list-style-type: none;
 	margin-bottom: 1.5em;
+}
+.pinboard li:last-of-type {
+	margin-bottom: 0;
 }
 .more {
 	text-align: right;

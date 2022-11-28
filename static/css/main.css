@@ -176,7 +176,8 @@ a.post-date:hover, a span.dt-published:hover {
 img {
 	width: 100%;
 	height: auto;
-	border-radius: 15px;
+	border-radius: 10px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 
 /* SITEWIDE PADDING BY ELEMENT */
@@ -202,8 +203,9 @@ li {
 	margin: 15px 0;
 	padding: 25px;
 	background: var(--secondary-background-color);
-	border-radius: 15px;
+	border-radius: 10px;
 	max-width: 500px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 .microblog_text img {
 	max-height: 500px;
@@ -261,7 +263,8 @@ li {
 p.post-note {
 	background: var(--note-background);
 	padding: 10px 25px;
-	border-radius: 15px;
+	border-radius: 10px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 
 /* ELEMENTS */
@@ -270,7 +273,8 @@ blockquote {
 	background: var(--secondary-background-color);
 	padding: 10px;
 	margin:  0;
-	border-radius: 15px;
+	border-radius: 10px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 blockquote p {
 	padding-left: 15px;
@@ -296,7 +300,8 @@ pre {
 	background: var(--secondary-background-color);
 	overflow: auto;
 	padding: 10px 25px;
-	border-radius: 15px;
+	border-radius: 10px;
+	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 
 code {

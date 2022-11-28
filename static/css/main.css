@@ -251,6 +251,7 @@ li {
   font-weight: normal;
   color: white;
   font-size: 1em;
+  box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 .conversation-on-mb:hover, .reply-by-email:hover, .finish-reading:hover {
 	background: var(--main-link-hover-color);

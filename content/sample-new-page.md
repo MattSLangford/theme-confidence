@@ -1,0 +1,4 @@
+---
+title: "Test"
+type: test
+---

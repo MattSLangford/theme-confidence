@@ -12,6 +12,7 @@
 	--button-text-color: #fff;
 	--note-background: #ffffe0;
 	--hr-color: #0561d1;
+	--post-feed: #fff7ed;
 }
 
 /* BASIC SETTINGS */
@@ -375,6 +376,7 @@ footer ul li a {
 	--button-text-color: #fff;
 	--note-background: #ffffe0;
 	--hr-color: #0561d1;
+	--post-feed: #000;
 }
 }
 
@@ -517,7 +519,7 @@ Masonry:
 	margin: 0;
 }
 .post-feed {
-	background: #fff7ed;
+	background: var(--post-feed);
 	padding: 1em;
 	border-radius: 10px;
 	margin: 10px 0;

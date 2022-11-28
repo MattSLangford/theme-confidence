@@ -31,7 +31,6 @@
     </ul>
     <div class="more"><a href="https://pinboard.in/u:matt425/">More at Pinboard →</a></div>
   </div>
-</div>
 <div class="bookshelf">
     <h2>Currently Reading...</h2>
     {{ range .Site.Data.bookshelves.currentlyreading }}
@@ -39,5 +38,6 @@
     <img src="{{ .cover_url }}"> {{ .title }} by {{ .author }}
    </a>
     {{ end }}
+</div>
 </div>
 {{ end }}

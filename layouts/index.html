@@ -37,7 +37,7 @@
     {{ range .Site.Data.bookshelves.currentlyreading }}
     <p class="bookshelf_book">
    <a href="https://micro.blog/books/{{ .isbn }}">
-    <img src="{{ .cover_url }}"> <span class="bookshelf_title">{{ .title }}</span> <span class="bookshelf_author">by {{ .author }}</span>
+    <img src="{{ .cover_url }}"> <span class="bookshelf_title">{{ .title }}</span><br><span class="bookshelf_author">by {{ .author }}</span>
    </a>
     </p>
     {{ end }}

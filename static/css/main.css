@@ -476,8 +476,8 @@ Masonry:
 	margin-right: 3px;
 	float: left;
 }
-.bookshelf_title {
-	font-weight: strong !important;
+span.bookshelf_title {
+	font-weight: strong;
 }
 
 .movies {

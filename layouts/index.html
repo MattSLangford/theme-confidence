@@ -36,7 +36,7 @@
     <h2>Currently Reading...</h2>
     {{ range .Site.Data.bookshelves.currentlyreading }}
    <a href="https://micro.blog/books/{{ .isbn }}">
-    {{ .cover_url }} {{ .title }} by {{ .author }}
+    <img src="{{ .cover_url }}"> {{ .title }} by {{ .author }}
    </a>
 {{ end }}
 </div>

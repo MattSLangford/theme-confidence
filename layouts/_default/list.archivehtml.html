@@ -2,7 +2,7 @@
 	<div class="page">
 		<h1 class="page-title">{{ .Title }}</h1>
 		<p>The following is the full list of all content posted to this site. Click the date or title to see more details and/or images.</p>
-		<p><strong>Legend:</strong><br>📖 Long Form Posts<br>✏️ Short Update<<br>📷 Image (In Progress)/p>
+		<p><strong>Legend:</strong><br>📖 Long Form Posts<br>✏️ Short Update<<br>📷 Image (In Progress)</p>
 	{{ $list := (where .Site.Pages "Type" "post") }}
 	{{ range $list }}
 

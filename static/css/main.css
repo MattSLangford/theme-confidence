@@ -452,3 +452,6 @@ Masonry:
 .pinboard li a {
 	display: block;
 }
+.pinboard li {
+	list-style-type: none;
+}

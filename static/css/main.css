@@ -491,7 +491,7 @@ Masonry:
 }
 
 .pinboard ul {
-	
+	padding: 0;
 }
 .post-feed p:last-of-type {
 	margin-bottom: 0;

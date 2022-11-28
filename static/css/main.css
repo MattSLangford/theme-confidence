@@ -451,10 +451,13 @@ Masonry:
 
 .pinboard, .post-feed {
 	background: var(--secondary-background-color);
-	padding: 0.5em 1.5em;
+	padding: 0.5em 1em;
 	border-radius: 10px;
 	margin: 10px 0;
 	box-shadow: 0 2px 3px rgba(0,0,0,.1);
+}
+.post-feed p:last-of-type {
+	margin-bottom: 0;
 }
 
 .pinboard li a {

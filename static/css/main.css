@@ -476,8 +476,8 @@ Masonry:
 	margin-right: 3px;
 	float: left;
 }
-span.bookshelf_title {
-	font-weight: strong;
+.bookshelf_title {
+	font-weight: bold;
 }
 
 .movies {
@@ -519,7 +519,7 @@ span.bookshelf_title {
 	padding: .5em 0;
 }
 .rss-box li a {
-	font-weight: strong !important;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 750px) {

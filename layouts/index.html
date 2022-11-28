@@ -4,7 +4,7 @@
 {{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 1) }}
 {{ range $paginator.Pages  }}
   <div class="post">
-    <h2>Latest Post ⤵</h2>
+    <h2>Latest Post <span class="arrow">⤵</span></h2>
     <div class="post-feed">
         <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2 January 2006" }} ⌘</time></a>
 	    {{ if .Title }}

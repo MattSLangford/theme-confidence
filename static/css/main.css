@@ -462,6 +462,11 @@ Masonry:
 	grid-column: 3/5;
 	grid-row: 1;
 }
+.bookshelf img {
+	border-radius: 0;
+	max-width: 100px;
+	height: auto;
+}
 .pinboard ul {
 	background: var(--secondary-background-color);
 	padding: 1em;

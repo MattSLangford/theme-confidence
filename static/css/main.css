@@ -474,9 +474,10 @@ Masonry:
 .bookshelf p.bookshelf-title {
 	font-weight: bold;
 	display: block;
+	display: inline;
 }
 .bookshelf p.bookshelf-author {
-
+	display: inline;
 }
 
 .movies {

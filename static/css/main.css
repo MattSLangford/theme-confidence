@@ -320,16 +320,24 @@ pre code {
 /* FOOTER STYLING */
 
 footer {
-	/*border-top: 1px solid #ececec;*/
 	margin-top: 50px;
 }
 
-footer .container {
-	opacity: 0.5;
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	font-size: 1.4em;
+	padding: 0;
 }
 
-footer .container:hover {
-	opacity: 1;
+footer ul li {
+	display: inline;
+	padding-right: 10px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	border: none;
 }
 
 /* PAGINATION */

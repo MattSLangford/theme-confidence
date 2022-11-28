@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="posts h-feed">
-
+<div class="widget-container">
 {{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 1) }}
 {{ range $paginator.Pages  }}
   <div class="post">
@@ -23,7 +23,7 @@
 </div>
 {{ end }}
 </div>
-<div class="widget-container">
+
     <div class="pinboard">
         <h2>Elsewhere...</h2>
         <div class="widget-content">

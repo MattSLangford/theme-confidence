@@ -32,4 +32,11 @@
     <div class="more"><a href="https://pinboard.in/u:matt425/">More at Pinboard →</a></div>
   </div>
 </div>
+<div class="bookshelf">
+    {{ range .Site.Data.bookshelves.currentlyreading }}
+   <a href="https://micro.blog/books/{{ .isbn }}">
+     {{ .title }} by {{ .author }}
+   </a>
+{{ end }}
+</div>
 {{ end }}

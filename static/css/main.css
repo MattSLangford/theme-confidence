@@ -449,7 +449,7 @@ Masonry:
   }
 }
 
-.pinboard, .post-feed {
+.pinboard {
 	background: var(--secondary-background-color);
 	padding: 1em;
 	border-radius: 10px;

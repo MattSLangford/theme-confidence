@@ -24,32 +24,33 @@
 <div class="widget-container">
     <div class="pinboard">
         <h2>Elsewhere...</h2>
-<div class="widget-content">
-    <ul>
-        <script src="{{ "js/pinboard.js" | relURL }}"></script>
-        <script src="{{ "js/linkroll.js" | relURL }}"></script>
-        <script src="https://feeds.pinboard.in/json/v1/u:matt425/?cb=pinboardNS_show_bmarks&amp;count=5"></script>
-    </ul>
-    <div class="more"><a href="https://pinboard.in/u:matt425/">More at Pinboard →</a></div>
-  </div>
-<div class="bookshelf">
-    <h2>Now Reading...</h2>
-    <div class="widget-content">
-    {{ range .Site.Data.bookshelves.currentlyreading }}
-    <p class="bookshelf_book">
-   <a href="https://micro.blog/books/{{ .isbn }}">
-    <img src="{{ .cover_url }}"> <span class="bookshelf_title">{{ .title }}</span><br><span class="bookshelf_author">by {{ .author }}</span>
-   </a>
-    </p>
-    {{ end }}
+        <div class="widget-content">
+            <ul>
+                <script src="{{ "js/pinboard.js" | relURL }}"></script>
+                <script src="{{ "js/linkroll.js" | relURL }}"></script>
+                <script src="https://feeds.pinboard.in/json/v1/u:matt425/?cb=pinboardNS_show_bmarks&amp;count=5"></script>
+            </ul>
+        </div>
+        <div class="more"><a href="https://pinboard.in/u:matt425/">More at Pinboard →</a></div>
     </div>
-</div>
-<div class="movies">
-    <h2>Watch History</h2>
-    <div class="widget-content">
-   <script language="JavaScript" src="https://feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fletterboxd.com%2Fmattslangford%2Frss%2F&desc=1&utf=y"  charset="UTF-8" type="text/javascript"></script>
-   <div class="more"><a href="https://letterboxd.com/mattslangford/">More at Letterboxd →</a></div>
+    <div class="bookshelf">
+        <h2>Now Reading...</h2>
+        <div class="widget-content">
+            {{ range .Site.Data.bookshelves.currentlyreading }}
+            <p class="bookshelf_book">
+                <a href="https://micro.blog/books/{{ .isbn }}">
+                <img src="{{ .cover_url }}"> <span class="bookshelf_title">{{ .title }}</span><br><span class="bookshelf_author">by {{ .author }}</span>
+                </a>
+            </p>
+            {{ end }}
+        </div>
     </div>
+    <div class="movies">
+        <h2>Watch History</h2>
+        <div class="widget-content">
+            <script language="JavaScript" src="https://feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fletterboxd.com%2Fmattslangford%2Frss%2F&desc=1&utf=y"  charset="UTF-8" type="text/javascript"></script>
+        </div>
+        <div class="more"><a href="https://pinboard.in/u:matt425/">More at Pinboard →</a></div>
 </div>
 </div>
 {{ end }}

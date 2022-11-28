@@ -457,7 +457,7 @@ Masonry:
 	grid-row-gap: 10px; 
 }
 
-.pinboard {
+.pinboard ul {
 	background: var(--secondary-background-color);
 	padding: 1em;
 	border-radius: 10px;
@@ -471,11 +471,7 @@ Masonry:
 .pinboard li a {
 	display: block;
 }
-.pinboard ul {
-	padding-left: 0;
-	margin-top: 0;
-	margin-bottom: 0;
-}
+
 .pinboard li {
 	list-style-type: none;
 	margin-bottom: 1.5em;

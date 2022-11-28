@@ -452,6 +452,10 @@ Masonry:
 .pinboard li a {
 	display: block;
 }
+.pinboard ul {
+	padding-left: 0;
+}
 .pinboard li {
 	list-style-type: none;
+	margin-bottom: 1.5em;
 }

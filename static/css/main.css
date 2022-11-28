@@ -457,6 +457,7 @@ Masonry:
 }
 .widget-content {
 	margin: 10px 0;
+	clear: both;
 }
 .pinboard {
 	grid-column: 1/5;
@@ -473,6 +474,7 @@ Masonry:
 	border-radius: 0;
 	padding-right: 5px;
 	margin-right: 3px;
+	float: left;
 }
 
 .movies {

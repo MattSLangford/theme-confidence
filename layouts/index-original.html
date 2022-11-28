@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="posts h-feed">
 
-{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 1) }}
+{{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 25) }}
 {{ range $paginator.Pages  }}
 
   <div class="post">
@@ -20,14 +20,20 @@
 	{{ end }}
 {{ end }}
 </div>
-
-<div class="pinboard">
-    <h2>Meanwhile, on the internet...</h2>
-    <ul>
-        <script src="assets/js/pinboard.js"></script>
-        <script src="assets/js/linkroll.js"></script>
-        <script src="https://feeds.pinboard.in/json/v1/u:matt425/?cb=pinboardNS_show_bmarks&amp;count=7"></script>
-    </ul>
-     <div class="more"><a href="https://pinboard.in/u:matt425/">More at Pinboard</a></div>
-  </div>
+<div class="post-nav">
+    {{ if $paginator.HasPrev }}
+        <span class="prev">
+			<a href="{{ $paginator.Prev.URL }}" title="Previous Page">
+				<span class="arrow">←</span> Newer
+			</a>
+        </span>
+    {{ end }}
+    {{ if $paginator.HasNext }}
+        <span class="next">
+            <a href="{{ $paginator.Next.URL }}">
+                Older <span class="arrow">→</span>
+            </a>
+        </span>
+    {{ end }}
+</div>
 {{ end }}

@@ -9,7 +9,7 @@
 			{{ if .Title }}
 				<a href="{{ .Permalink }}" class="u-url"><span class="p-name"><b>{{ .Title }}</b></span></a>
 				<span class="p-summary">{{ .Summary }}</span>
-			{ else }}
+			{{ else }}
 			<span class="p-summary">{{ .Summary }}</span>
 			{{ end }}
 		</p>

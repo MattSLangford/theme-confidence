@@ -452,8 +452,8 @@ Masonry:
 .widget-container {
 	display: grid; 
 	grid-template-columns: repeat(4, 1fr); 
-	grid-column-gap: 10px;
-	grid-row-gap: 10px; 
+	grid-column-gap: 20px;
+	grid-row-gap: 20px; 
 }
 .widget-content {
 	margin: 10px 0;
@@ -472,7 +472,9 @@ Masonry:
 	grid-column: 1/3;
 	grid-row: 2;
 }
-
+.bookshelf_book {
+	margin-top: 0;
+}
 .bookshelf img {
 	max-width: 50px;
 	height: auto;
@@ -492,6 +494,7 @@ Masonry:
 
 .pinboard ul {
 	padding: 0;
+	margin: 0;
 }
 .post-feed p:last-of-type {
 	margin-bottom: 0;
@@ -515,6 +518,7 @@ Masonry:
 .rss-box ul {
 	list-style-type: none;
 	padding: 0;
+	margin: 0;
 }
 .rss-box li {
 	padding: .5em 0;

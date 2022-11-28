@@ -449,12 +449,6 @@ Masonry:
   }
 }
 
-@media only screen and (max-width: 750px) {
-	.bookshelf, .movies {
-		grid-column:1/5;
-	}
-}
-
 .widget-container {
 	display: grid; 
 	grid-template-columns: repeat(4, 1fr); 
@@ -512,4 +506,10 @@ Masonry:
 }
 .more {
 	text-align: right;
+}
+
+@media only screen and (max-width: 750px) {
+	.bookshelf, .movies {
+		grid-column:1/5;
+	}
 }

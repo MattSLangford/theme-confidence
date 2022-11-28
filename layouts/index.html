@@ -33,15 +33,19 @@
   </div>
 <div class="bookshelf">
     <h2>Currently Reading...</h2>
+    <div class="widget-content">
     {{ range .Site.Data.bookshelves.currentlyreading }}
    <a href="https://micro.blog/books/{{ .isbn }}">
     <img src="{{ .cover_url }}"> {{ .title }} by {{ .author }}
    </a>
     {{ end }}
+    </div>
 </div>
 <div class="movies">
     <h2>Watch History</h2>
+    <div class="widget-content">
    <a href="#">Under Development</a>
+    </div>
 </div>
 </div>
 {{ end }}

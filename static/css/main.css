@@ -455,6 +455,9 @@ Masonry:
 	grid-column-gap: 10px;
 	grid-row-gap: 10px; 
 }
+.widget-content {
+	margin: 10px 0;
+}
 .pinboard {
 	grid-column: 1/5;
 	grid-row: 1;

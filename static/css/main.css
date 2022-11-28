@@ -449,6 +449,14 @@ Masonry:
   }
 }
 
+.widget-container {
+	display: grid; 
+	grid-template-columns: repeat(2, 1fr); 
+	grid-template-rows: repeat(2, 1fr); 
+	grid-column-gap: 10px;
+	grid-row-gap: 10px; 
+}
+
 .pinboard {
 	background: var(--secondary-background-color);
 	padding: 1em;

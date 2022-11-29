@@ -11,16 +11,7 @@
 			{{ if .Title }}
 				<span>📖</span> <a href="{{ .Permalink }}" class="u-url"><span class="p-name"><b>{{ .Title }}</b></span></a>
 			{{ else }}
-			<span class="p-summary">
-{{ $stringCheck := .Content }}
-		{{ $stringResult := substr $stringCheck 0 10 }}
-		{{ $image := "<img" }}
-		{{ $video := "<video" }}
-		{{ $audio := "<audio" }}
-		{{ if in $stringResult (or ($image) ($video) ($audio)) }}
-		📷{{ .Summary | truncate 50 }}</span>
-		{{ else }}
-			✏️ {{ .Summary | truncate 50 }}</span>
+			<span class="p-summary">✏️ {{ .Summary | truncate 50 }}</span>
 			{{ end }}
 		</p>
 

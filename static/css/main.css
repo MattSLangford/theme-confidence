@@ -512,6 +512,9 @@ Masonry:
 .bookshelf_title {
 	font-weight: bold;
 }
+.bookshelf_book {
+	margin: 50px 0;
+}
 
 .movies {
 	grid-column: 3/5;

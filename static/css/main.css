@@ -298,7 +298,6 @@ hr::after {
   content: '***';
   display: block;
   line-height: 1;
-  text-align: center;
   color: var(--hr-color);
 }
 

@@ -512,7 +512,7 @@ Masonry:
 .bookshelf_title {
 	font-weight: bold;
 }
-.bookshelf_book {
+.page .bookshelf_book {
 	margin: 50px 0;
 }
 

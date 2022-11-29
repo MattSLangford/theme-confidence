@@ -171,6 +171,9 @@ a.post-date:hover, a span.dt-published:hover {
 .post {
 	margin-top: 25px;
 }
+.h-entry {
+	margin: 50px 0;
+}
 
 /* MAKE IMAGES FULL WIDTH */
 

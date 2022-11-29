@@ -557,7 +557,7 @@ Masonry:
 }
 
 .arrow {
-	color: red;
+	color: var(--main-link-hover-color);
 }
 
 @media only screen and (max-width: 750px) {

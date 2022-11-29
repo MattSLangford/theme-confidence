@@ -6,7 +6,7 @@
 	{{ $list := (where .Site.Pages "Type" "post") }}
 	{{ range $list }}
 
-		<p class="h-entry">
+		<p class="archive-list">
 			<a href="{{ .Permalink }}" class="u-url"><span class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "2006-01-02" }}</span></a>:
 			{{ if .Title }}
 				<span>📖</span> <a href="{{ .Permalink }}" class="u-url"><span class="p-name"><b>{{ .Title }}</b></span></a>

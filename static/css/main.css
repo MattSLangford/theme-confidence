@@ -299,6 +299,7 @@ hr::after {
   display: block;
   line-height: 1;
   color: var(--hr-color);
+  text-align: left;
 }
 
 pre {

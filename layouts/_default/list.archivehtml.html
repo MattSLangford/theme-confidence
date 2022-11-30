@@ -13,7 +13,7 @@
 				<span>📖</span> <a href="{{ .Permalink }}" class="u-url"><span class="p-name"><b>{{ .Title }}</b></span></a>
 			{{ else }}
 			<span class="p-summary">
-			{{ if isset .Params "photos" }}📸
+			{{ if isset .Params "photos" }}📸 {{ .Summary | truncate 50 }}</span>
 			{{ else }}
 			✏️ {{ .Summary | truncate 50 }}</span>
 			{{ end }}

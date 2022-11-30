@@ -535,6 +535,9 @@ Masonry:
 .post-feed p:last-of-type {
 	margin-bottom: 0;
 }
+.post-feed img:first-of-type {
+	margin-top: 18px;
+}
 
 .pinboard li a {
 	display: block;

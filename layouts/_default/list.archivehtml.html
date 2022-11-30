@@ -12,7 +12,11 @@
 			{{ if .Title }}
 				<span>📖</span> <a href="{{ .Permalink }}" class="u-url"><span class="p-name"><b>{{ .Title }}</b></span></a>
 			{{ else }}
-			<span class="p-summary">✏️ {{ .Summary | truncate 50 }}</span>
+			<span class="p-summary">
+			{{ if isset .Params "photos" }}📸
+			{{ else }}
+			✏️ {{ .Summary | truncate 50 }}</span>
+			{{ end }}
 			{{ end }}
 		</p>
 

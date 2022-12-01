@@ -1,0 +1,15 @@
+    <div class="bookshelf">
+        <h2>Now Reading</h2>
+        <div class="widget-content">
+            {{ range .Site.Data.bookshelves.currentlyreading }}
+            <p class="bookshelf_book">
+                <a href="https://micro.blog/books/{{ .isbn }}">
+                <img src="{{ .cover_url }}"> <span class="bookshelf_title">{{ .title }}</span><br><span class="bookshelf_author">by {{ .author }}</span>
+                </a>
+            </p>
+            {{ end }}
+        </div>
+        <div class="more">
+            <a href="https://www.mattlangford.com/finished-books/">More Books →</a>
+        </div>
+    </div>

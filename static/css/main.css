@@ -572,7 +572,11 @@ Masonry:
 }
 
 .arrow {
-	color: var(--main-link-hover-color);
+	/* color: var(--main-link-hover-color); */
+	animation-name: fontColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @media only screen and (max-width: 750px) {
@@ -582,4 +586,24 @@ Masonry:
 	.movies {
 		grid-row: 4;
 	}
+}
+
+/* ANIMATION */
+/* Standard syntax */
+@keyframes fontColorPalette {
+  0% {
+    color: #ee6055;
+  }
+  25% {
+    color: #60d394;
+  }
+  50% {
+    color: #aaf683;
+  }
+  75% {
+    color: #ffd97d;
+  }
+  100% {
+    color: #ff9b85;
+  }
 }

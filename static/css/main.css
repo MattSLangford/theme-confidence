@@ -5,7 +5,7 @@
 	--main-background-color: #fff;
 	--main-text-color: #20343F;
 	--secondary-accent-color: #AEAEAE;
-	--main-link-color: #000;
+	--main-link-color: #3979cc;
 	--main-link-hover-color: #cb3b69;
 	--main-header-color:  #000;
 	--secondary-background-color: #F2F2F6;
@@ -64,7 +64,7 @@ header h1 {
 }
 header h1 a {
 	border: none;
-	color: var(--main-link-color);
+	color: var(--main-header-color);
 }
 header .lead {
 	margin-bottom: 10px;
@@ -91,16 +91,12 @@ header ul li a {
 	text-decoration: none;
 	border: none;
 }
-header .logo a {
-	border: none;
-}
 
 /* LINKS */
 
 a {
 	color: var(--main-link-color);
 	text-decoration: none;
-	border-bottom:1px solid var(--main-link-color);
 }
 a:hover {
 	color: var(--main-link-hover-color);

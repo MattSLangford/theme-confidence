@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div class="posts h-feed">
     <div class="widget-container">
+        {{ $posts := where site.Pages "Type" "post" }}
+        {{ $hidden_posts := where $posts "Params.categories" "intersect" (slice "Micropost") }}
+        {{ $posts = $posts | symdiff $hidden_posts }}
         {{ $paginator := .Paginate (where .Site.Pages.ByDate.Reverse "Type" "post") (index .Site.Params "archive-paginate" | default 1) }}
         {{ range $paginator.Pages  }}
         <div class="post">

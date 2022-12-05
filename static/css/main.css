@@ -535,6 +535,12 @@ Masonry:
 	margin: 10px 0;
 	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
+.micro .post-feed {
+	animation-name: fontColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 .post-feed p:last-of-type {
 	margin-bottom: 0;
 }
@@ -571,11 +577,7 @@ Masonry:
 }
 
 .arrow {
-	/* color: var(--main-link-hover-color); */
-	animation-name: fontColorPalette;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+	
 }
 
 @media only screen and (max-width: 750px) {
@@ -591,18 +593,18 @@ Masonry:
 /* Standard syntax */
 @keyframes fontColorPalette {
   0% {
-    color: #ee6055;
+    background-color: #ee6055;
   }
   25% {
-    color: #60d394;
+    background-color: #60d394;
   }
   50% {
-    color: #aaf683;
+    background-color: #aaf683;
   }
   75% {
-    color: #ffd97d;
+    background-color: #ffd97d;
   }
   100% {
-    color: #ff9b85;
+    background-color: #ff9b85;
   }
 }

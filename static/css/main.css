@@ -5,7 +5,7 @@
 	--main-background-color: #fff;
 	--main-text-color: #20343F;
 	--secondary-accent-color: #AEAEAE;
-	--main-link-color: #3979cc;
+	--main-link-color: #000;
 	--main-link-hover-color: #cb3b69;
 	--main-header-color:  #000;
 	--secondary-background-color: #F2F2F6;
@@ -64,7 +64,7 @@ header h1 {
 }
 header h1 a {
 	border: none;
-	color: var(--black);
+	color: var(--main-link-color);
 }
 header .lead {
 	margin-bottom: 10px;

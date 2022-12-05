@@ -97,6 +97,7 @@ header ul li a {
 a {
 	color: var(--main-link-color);
 	text-decoration: none;
+	border-bottom:1px solid var(--main-link-color);
 }
 a:hover {
 	color: var(--main-link-hover-color);

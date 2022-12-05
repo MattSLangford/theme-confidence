@@ -1,7 +1,8 @@
 {{ define "main" }}
 <div class="posts h-feed">
     <div class="widget-container">
-        {{ range first 3 $micropost }}
+        {{ $microposts := .Site.Taxonomies.categories.micropost }}
+        {{ range first 3 $microposts }}
             {{ if .Title }}
   <section class="post-body">
   <header>

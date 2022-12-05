@@ -91,6 +91,9 @@ header ul li a {
 	text-decoration: none;
 	border: none;
 }
+header .logo a {
+	border: none;
+}
 
 /* LINKS */
 

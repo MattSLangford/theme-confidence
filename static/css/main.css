@@ -484,10 +484,12 @@ Masonry:
 	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 .micro {
-
+grid-row: 1;
+grid-column: 1/5;
 }
 .long {
-
+grid-row: 2;
+grid-column: 1/5;
 }
 .pinboard {
 

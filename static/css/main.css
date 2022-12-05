@@ -472,8 +472,7 @@ Masonry:
 .widget-container {
 	display: grid; 
 	grid-template-columns: repeat(4, 1fr); 
-	grid-column-gap: 20px;
-	grid-row-gap: 20px; 
+	grid-gap: 20px; 
 }
 .widget-content {
 	margin: 10px 0;

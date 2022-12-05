@@ -28,7 +28,7 @@
         {{ range first 1 $longform }}
         <div class="post long">
             <h2>Latest Posts <span class="arrow">⤵</span></h2>
-            <div class="post long">
+            <div class="post-feed">
                 <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2 January 2006" }} ⌘</time></a>
                 {{ if .Title }}
                     <h1 class="page-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>

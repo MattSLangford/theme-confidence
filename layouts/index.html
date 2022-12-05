@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="posts h-feed">
     <div class="widget-container">
-        {{ $paginator := .Paginate .Site.Taxonomies.categories.longform 10 }}
+        {{ $paginator := .Paginate .Site.Taxonomies.categories.longform 1 }}
         {{ range $paginator.Pages  }}
         <div class="post">
             <h2>Latest Post <span class="arrow">⤵</span></h2>

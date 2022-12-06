@@ -21,6 +21,6 @@ var pinboardNS_callback = function(x)
     pinboardNS_linkroll.set_items(x);
     pinboardNS_linkroll.show_bmarks();
 }
-var json_URL = "https://feeds.pinboard.in/json/v1/u:kwon/?cb=pinboardNS_show_bmarks&tag=post&count=" + count;
+var json_URL = "https://feeds.pinboard.in/json/v1/u:Matt425/?cb=pinboardNS_show_bmarks&count=" + count;
 
 pinboardNS_fetch_script(json_URL);

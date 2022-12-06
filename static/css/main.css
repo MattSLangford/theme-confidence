@@ -252,7 +252,7 @@ li {
   color: white;
   font-size: 1em;
 }
-.conversation-on-mb:hover, .reply-by-email:hover, .finish-reading:hover {
+.conversation-on-mb:hover, .reply-by-email:hover {
 	background: var(--main-link-hover-color);
 	color: var(--button-text-color);
 }

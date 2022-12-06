@@ -4,7 +4,7 @@ function pinboardNS_fetch_script(url)
 {
     document.writeln('<s'+'cript src="' + url + '"></s'+'cript>');
 }
-pinboardNS_fetch_script('assets/js/linkroll.js');
+pinboardNS_fetch_script('js/linkroll.js');
 
 
 function pinboardNS_show_bmarks(r)

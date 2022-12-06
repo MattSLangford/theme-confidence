@@ -529,9 +529,7 @@ grid-column: 3/5;
 	margin: 10px 0;
 	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
-.micro .post-feed {
-	background: #B2F2BB;
-}
+
 .post-feed p:last-of-type {
 	margin-bottom: 0;
 }

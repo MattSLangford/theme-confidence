@@ -243,7 +243,7 @@ li {
 	content: ' →';
 }
 
-.conversation-on-mb, .reply-by-email, .finish-reading {
+.conversation-on-mb, .reply-by-email {
   border-radius: 12px;
   border: none;
   padding: 8px 12px;

@@ -611,7 +611,6 @@ form input {
 	padding: 1px 12px;
 	-webkit-appearance: none;
 	box-sizing: content-box;
-	background: none;
 }
 
 @media only screen and (max-width: 750px) {

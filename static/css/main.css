@@ -597,6 +597,11 @@ grid-column: 3/5;
 	padding: 0 3px;
 }
 
+ul.main-nav {
+	list-style-type: inline;
+
+}
+
 @media only screen and (max-width: 750px) {
 	.bookshelf, .movies {
 		grid-column:1/5;

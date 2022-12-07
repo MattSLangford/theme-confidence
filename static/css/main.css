@@ -609,6 +609,7 @@ form input {
 	border-radius: 17px;
 	border: 2px solid #eee;
 	padding: 1px 12px;
+	-webkit-appearance: none;
 }
 
 @media only screen and (max-width: 750px) {

@@ -607,6 +607,8 @@ form input {
 	height: 34px;
 	font-size: 13px;
 	border-radius: 17px;
+	border: 2px solid #eee;
+	padding: 1px 12px;
 }
 
 @media only screen and (max-width: 750px) {

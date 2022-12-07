@@ -598,8 +598,7 @@ grid-column: 3/5;
 }
 
 ul.main-nav {
-	list-style-type: inline;
-
+	font-size: 1em;
 }
 
 @media only screen and (max-width: 750px) {

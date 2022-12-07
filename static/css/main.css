@@ -147,7 +147,9 @@ h2.page-title {
 	line-height: 1.2;
 	margin-bottom: 1rem;
 }
-
+h2.post-title {
+	margin-top: 0;
+}
 
 /* META/BYLINES */
 

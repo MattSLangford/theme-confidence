@@ -8,7 +8,7 @@
 	--main-link-color: #3979cc;
 	--main-link-hover-color: #cb3b69;
 	--main-header-color:  #000;
-	--secondary-background-color: #F2F2F6;
+	--secondary-background-color: #f5f5f5;
 	--button-text-color: #fff;
 	--note-background: #ffffe0;
 	--hr-color: #0561d1;
@@ -30,7 +30,7 @@ body {
 	line-height: 1.7;
 	margin: 0;
 	font-size: 18px;
-	background: var(--main-background-color);
+	background: var(--secondary-background-color);
 	color: var(--main-text-color);
 }
 
@@ -52,7 +52,7 @@ header {
 	color: var(--main-text-color);
 	background: var(--main-background-color);
 	width: 100%;
-	padding: 25px 0 0 0;
+	padding: 25px 0 25px 0;
 }
 
 header a {

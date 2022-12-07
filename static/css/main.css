@@ -330,25 +330,11 @@ pre code {
 footer {
 	margin-top: 50px;
 	margin-bottom: 25px;
-}
-
-footer ul {
-	list-style-type: none;
-	margin: 0;
-	font-size: 1.4em;
-	padding: 0;
+	font-size:0.8em;
 	text-align: center;
+	color: var(--secondary-background-color);
 }
 
-footer ul li {
-	display: inline;
-	padding-right: 10px;
-}
-
-footer ul li a {
-	text-decoration: none;
-	border: none;
-}
 
 /* PAGINATION */
 .post-nav {

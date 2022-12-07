@@ -594,7 +594,7 @@ grid-column: 3/5;
 	font-size: 1.2em;
 }
 .nav-bar a {
-	padding-left: 5px;
+	padding: 0 3px;
 }
 
 @media only screen and (max-width: 750px) {

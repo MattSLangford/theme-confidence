@@ -30,7 +30,7 @@ body {
 	line-height: 1.7;
 	margin: 0;
 	font-size: 18px;
-	background: var(--secondary-background-color);
+	background: var(--main-background-color);
 	color: var(--main-text-color);
 }
 
@@ -50,7 +50,7 @@ body {
 
 header {
 	color: var(--main-text-color);
-	background: var(--main-background-color);
+	background: var(--secondary-background-color);
 	width: 100%;
 	padding: 25px 0 25px 0;
 }

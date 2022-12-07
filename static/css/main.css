@@ -333,6 +333,7 @@ footer {
 	font-size:0.8em;
 	text-align: center;
 	color: var(--secondary-background-color);
+	max-width: 500px;
 }
 
 

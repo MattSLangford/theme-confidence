@@ -591,10 +591,7 @@ grid-column: 3/5;
 
 .nav-bar {
 	float: right;
-	opacity: 0.5;
-}
-.nav-bar:hover {
-	opacity: 1;
+	font-size: 1.1em;
 }
 
 @media only screen and (max-width: 750px) {

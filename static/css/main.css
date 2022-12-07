@@ -589,6 +589,10 @@ grid-column: 3/5;
 	}
 }
 
+.nav-bar {
+	float: right;
+}
+
 @media only screen and (max-width: 750px) {
 	.bookshelf, .movies {
 		grid-column:1/5;

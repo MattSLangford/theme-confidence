@@ -328,12 +328,10 @@ pre code {
 /* FOOTER STYLING */
 
 footer {
-	margin-top: 50px;
-	margin-bottom: 25px;
-	font-size:0.8em;
+	font-size:0.7em;
 	text-align: center;
-	color: var(--secondary-background-color);
 	max-width: 500px;
+	margin: 25px auto;
 }
 
 

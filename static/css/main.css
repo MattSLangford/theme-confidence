@@ -189,9 +189,9 @@ img {
 }*/
 
 /* ElIMINATE TOP MARGIN OF FIRST PARAGRAPH OF EACH POST */
-.e-content p:first-of-type {
+/*.e-content p:first-of-type {
 	margin-top: 0;
-}
+}*/
 
 /* LISTS */
 

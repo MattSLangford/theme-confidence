@@ -175,6 +175,10 @@ a.post-date:hover, a span.dt-published:hover {
 	color: var(--secondary-accent-color);
 }
 
+a.finish-reading {
+	font-weight: bold;
+}
+
 /* POST SPACING */
 
 .h-entry {
@@ -427,8 +431,8 @@ footer {
 /* HOME PAGE NOW WIDGETS */
 
 .widget-container {
-	display: grid; 
-	grid-template-columns: repeat(4, 1fr); 
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 	grid-column-gap: 20px;
 	grid-row-gap: 0px;
 }

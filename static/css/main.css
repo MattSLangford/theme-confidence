@@ -74,6 +74,7 @@ header .lead {
 header a img {
 	width: 75px;
 	border-radius: 75px;
+	display: inline;
 }
 
 header ul {

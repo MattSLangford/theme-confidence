@@ -454,6 +454,9 @@ border: none;
 .Bookmark {
 	background: lightgoldenrodyellow;
 }
+.Bookmark h2.post-title {
+	font-size: 1.4em;
+}
 
 .post p:last-of-type {
 	margin-bottom: 0;

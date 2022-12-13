@@ -439,10 +439,10 @@ border: none;
 	background: none;
 }
 .Micropost {
-
+	background: whitesmoke;
 }
 .Longform {
-	background: #F7D8BA;
+	background: paleturquoise;
 }
 
 .post p:last-of-type {

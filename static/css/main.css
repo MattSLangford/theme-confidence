@@ -113,7 +113,6 @@ a {
 	border-bottom: 2px solid #000;
 }
 a:hover {
-	color: var(--main-link-hover-color);
 	transition: all 0.1s;
 	border: none;
 }

@@ -96,7 +96,7 @@ downloadArchive();
 	<input class="field" type="text" name="q" id="input_search" placeholder="Search" onChange="runSearch(this.value.toLowerCase());" />
 </form>
 
-<div id="list_results">
+<div id="list_results"></div>
 
 		<p class="post-note"><strong>Legend:</strong><br>📖 Long Form Posts<br>✏️ Short Update<br>📷 Image</p>
 	{{ $list := (where .Site.Pages "Type" "post") }}

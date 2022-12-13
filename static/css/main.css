@@ -434,24 +434,7 @@ footer {
 
 /* HOME PAGE NOW WIDGETS */
 
-.widget-container {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-column-gap: 20px;
-	grid-row-gap: 0px;
-}
-
-.widget-content {
-	margin: 10px 0;
-	clear: both;
-	background: var(--secondary-background-color);
-	padding: 1em;
-	border-radius: 10px;
-	margin: 10px 0;
-	box-shadow: 0 2px 3px rgba(0,0,0,.1);
-}
-
-.post-feed {
+.post {
 	background: var(--post-feed);
 	padding: 1em;
 	border-radius: 10px;
@@ -459,11 +442,11 @@ footer {
 	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 
-.post-feed p:last-of-type {
+.post p:last-of-type {
 	margin-bottom: 0;
 }
 
-.post-feed img:first-of-type {
+.post img:first-of-type {
 	margin-top: 18px;
 }
 

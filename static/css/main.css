@@ -453,6 +453,8 @@ border: none;
 
 .Micropost .post-date:after {
 	content: " Micropost";
+	font-weight: normal;
+	color: var(--secondary-background-color);
 }
 .Longform {
 	background: #afeeee;

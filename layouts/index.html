@@ -7,7 +7,7 @@
 	            {{ if .Title }}
 		            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
 		            <div class="e-content">
-		                <p>{{ .Content | safeHTML | truncate 300 }}</p>
+		                <p>{{ .Content | safeHTML | truncate 250 }}...</p>
                     </div>
                 {{ else }}
   	                <div class="e-content">

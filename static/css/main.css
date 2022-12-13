@@ -5,7 +5,7 @@
 	--main-background-color: #fff;
 	--main-text-color: #20343F;
 	--secondary-accent-color: #AEAEAE;
-	--main-link-color: #3979cc;
+	--main-link-color: #000;
 	--main-link-hover-color: #cb3b69;
 	--main-header-color:  #000;
 	--secondary-background-color: #f5f5f5;
@@ -109,10 +109,12 @@ ul.main-nav {
 a {
 	color: var(--main-link-color);
 	text-decoration: none;
+	border: 2px solid #000;
 }
 a:hover {
 	color: var(--main-link-hover-color);
 	transition: all 0.2s;
+	border: none;
 }
 
 /* HEADERS */

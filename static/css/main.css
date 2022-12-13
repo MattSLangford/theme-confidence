@@ -435,10 +435,13 @@ border: none;
 	background: none;
 }
 .Micropost {
-	background: antiquewhite;
+	background: none;
 }
 .Longform {
 	background: #afeeee;
+}
+Bookmark {
+	background: lightgoldenrodyellow;
 }
 
 .post p:last-of-type {

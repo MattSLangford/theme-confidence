@@ -184,7 +184,7 @@ a.finish-reading {
 /* MAKE IMAGES FULL WIDTH */
 
 img {
-	width: 100%;
+	max-width: 80%;
 	height: auto;
 }
 
@@ -483,14 +483,11 @@ form input {
 /* SMALL SCREEN STYLING */
 
 @media only screen and (max-width: 750px) {
-	.bookshelf, .movies {
-		grid-column:1/5;
-	}
-	.movies {
-		grid-row: 5;
-	}
 	ul.main-nav {
 		font-size:0.9em;
+	}
+	img {
+		max-width: 100%;
 	}
 }
 

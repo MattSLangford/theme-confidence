@@ -450,12 +450,6 @@ border: none;
 	background: none;
 	padding: 0;
 }
-
-.Micropost .post-date:after {
-	content: " Micropost";
-	font-weight: normal;
-	font-variant: italic;
-}
 .Longform {
 	background: #afeeee;
 }

@@ -325,6 +325,9 @@ footer {
 	margin: 25px auto;
 }
 
+footer a {
+	border-bottom: 1px solid #000;
+}
 
 /* PAGINATION */
 .post-nav {

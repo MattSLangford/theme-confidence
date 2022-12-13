@@ -276,10 +276,12 @@ blockquote p {
 ul.archive-categories {
 	list-style-type: none;
 	display: inline;
+	padding: 0;
 }
 
 ul.archive-categories li {
 	display: inline;
+	padding-right: 10px;
 }
 
 hr {

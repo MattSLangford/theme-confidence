@@ -360,6 +360,10 @@ footer {
   gap: 0.5rem;
 }
 
+.photos-grid a {
+border: none;
+}
+
 .photos-grid img {
   backdrop-filter: invert(5%);
   -webkit-backdrop-filter: invert(5%);

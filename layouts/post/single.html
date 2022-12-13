@@ -15,5 +15,15 @@
 <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
 </div>
 {{ end }}
+{{ $bookmarks := getJSON "https://micro.blog/feeds/Mtt/bookmarks/20ca6b1929f3b4adbbb2.json" }}
 
+{{ range $bookmarks.items }}
+  {{ if not .title }}
+    <div class="h-entry">
+      <a class="u-bookmark-of h-cite" href="{{ .url }}">
+        <p>{{ .content_html | plainify | truncate 140 }}</p>
+      </a>
+    </div>
+  {{ end }}
+{{ end }}
 {{ end }}

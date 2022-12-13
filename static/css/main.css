@@ -273,6 +273,15 @@ blockquote p {
 	margin-bottom: 10px;
 }
 
+ul.archive-categories {
+	list-style-type: none;
+	display: inline;
+}
+
+ul.archive-categories li {
+	display: inline;
+}
+
 hr {
   background: none;
   border: 0;
@@ -424,7 +433,7 @@ border: none;
   }
 }
 
-/* HOME PAGE NOW WIDGETS */
+/* HOME PAGE */
 
 .post {
 	background: var(--post-feed);
@@ -457,11 +466,6 @@ border: none;
 
 .page .bookshelf_book {
 	margin: 50px 0;
-}
-
-.movies {
-grid-row: 4;
-grid-column: 3/5;
 }
 
 .more {

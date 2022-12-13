@@ -88,16 +88,14 @@ downloadArchive();
 <div id="list_results">
 
 </ul>
-<ul>
 {{ $list := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
 		{{ if gt (len $list) 0 }}
-			<div class="archive_categories" style="border-bottom: 1px solid lightgray; padding-bottom: 15px; margin-bottom: 30px; padding-top: 15px;">
+			<ul class="archive-categories">
 				{{ range $list }}
 					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 				{{ end }}
-			</div>
+			</ul>
 		{{ end }}
-</ul>
 		<p>The following is the full list of all content posted to this site. Click the date or title to see more details and/or images. You can also just take a look at <a href="https://www.mattlangford.com/photos">all photos</a>.</p>
 
 		<p class="post-note"><strong>Legend:</strong><br>📖 Long Form Posts<br>✏️ Short Update<br>📷 Image</p>

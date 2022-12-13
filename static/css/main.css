@@ -115,6 +115,7 @@ a {
 a:hover {
 	transition: all 0.1s;
 	border: none;
+	color: var(--main-link-color);
 }
 
 /* HEADERS */

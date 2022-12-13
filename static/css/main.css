@@ -247,7 +247,7 @@ li {
 }
 .conversation-on-mb:hover, .reply-by-email:hover {
 	background: var(--secondary-background-color);
-	color: var(--button-text-color);
+	color: var(--main-text-color);
 }
 
 

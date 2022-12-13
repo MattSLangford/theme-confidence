@@ -546,28 +546,6 @@ form input {
 	box-sizing: content-box;
 }
 
-/* DARK MODE */
-
-@media (prefers-color-scheme: dark) {
-:root {
-	--main-accent-color: #20343F;
-	--main-background-color: #1D2531;
-	--main-text-color: #fff;
-	--secondary-accent-color: #AEAEAE;
-	--main-link-color: #3979cc;
-	--main-link-hover-color: #cb3b69;
-	--main-header-color:  #fff;
-	--secondary-background-color: #0E1218;
-	--button-text-color: #fff;
-	--note-background: #0E1218;
-	--hr-color: #0561d1;
-	--post-feed: #0E1218;
-}
-.micro .post-feed {
-		background: black;
-	}
-}
-
 /* SMALL SCREEN STYLING */
 
 @media only screen and (max-width: 750px) {

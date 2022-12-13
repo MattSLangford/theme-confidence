@@ -246,7 +246,7 @@ li {
   font-size: 1em;
 }
 .conversation-on-mb:hover, .reply-by-email:hover {
-	background: var(--main-link-hover-color);
+	background: var(--secondary-background-color);
 	color: var(--button-text-color);
 }
 
@@ -256,8 +256,6 @@ li {
 p.post-note {
 	background: var(--note-background);
 	padding: 10px 25px;
-	border-radius: 10px;
-	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 	max-width: fit-content;
 }
 
@@ -267,8 +265,6 @@ blockquote {
 	background: var(--secondary-background-color);
 	padding: 10px;
 	margin:  0;
-	border-radius: 10px;
-	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 blockquote p {
 	padding-left: 15px;
@@ -294,8 +290,6 @@ pre {
 	background: var(--secondary-background-color);
 	overflow: auto;
 	padding: 10px 25px;
-	border-radius: 10px;
-	box-shadow: 0 2px 3px rgba(0,0,0,.1);
 }
 
 code {
@@ -327,6 +321,10 @@ footer {
 
 footer a {
 	border-bottom: 1px solid #000;
+}
+
+footer hr {
+	margin: 4em 0;
 }
 
 /* PAGINATION */
@@ -444,7 +442,7 @@ border: none;
 .Longform {
 	background: #afeeee;
 }
-Bookmark {
+.Bookmark {
 	background: lightgoldenrodyellow;
 }
 

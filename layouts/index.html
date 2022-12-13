@@ -5,7 +5,12 @@
 {{ range $paginator.Pages  }}
 
   <div class="post">
-    <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2 January 2006" }} ⌘</time></a>{{ range .Params.categories }}{{ . }}{{ end }}
+    <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2 January 2006" }} ⌘</time></a>
+    <span class = "categories">
+		{{ range .Params.categories }}
+			<a href="{{ .Site.BaseURL }}/categories/{{ . | urlize }}"> {{ . }} </a>
+		{{ end }}
+	</span>
 	{{ if .Title }}
 		<h1 class="page-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
 		<div class="e-content">

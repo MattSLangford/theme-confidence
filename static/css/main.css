@@ -166,6 +166,7 @@ h2.post-title {
 a.post-date, .post-date {
 	border: none;
 	font-size: 15px;
+	font-weight: bold;
 }
 
 a span.dt-published {

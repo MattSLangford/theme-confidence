@@ -436,6 +436,7 @@ border: none;
 }
 .Micropost {
 	background: none;
+	padding: 0;
 }
 .Longform {
 	background: #afeeee;

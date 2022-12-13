@@ -26,11 +26,11 @@ function runSearch(q) {
 			var title_lower = item.title.toLowerCase();
 			var text_lower = item.content_text.toLowerCase();
 			if (title_lower.includes(q) || text_lower.includes(q)) {
-				var p_node = document.createElement("p");        
+				var p_node = document.createElement("p");
 				var link_node = document.createElement("a");
 				var d = Date.parse(item.date_published);
 				var date_s = new Date(d).toISOString().substr(0, 10);
-				var date_node = document.createTextNode(date_s); 
+				var date_node = document.createTextNode(date_s);
 				link_node.appendChild(date_node);
 				link_node.href = item.url;
               	var title_node = null;
@@ -53,7 +53,7 @@ function runSearch(q) {
 				results_node.appendChild(p_node);
 			}
 		}
-	} 
+	}
 }
 
 downloadArchive();
@@ -86,8 +86,16 @@ downloadArchive();
 </form>
 
 <div id="list_results">
+{{ $list := ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+		{{ if gt (len $list) 0 }}
+			<div class="archive_categories" style="border-bottom: 1px solid lightgray; padding-bottom: 15px; margin-bottom: 30px; padding-top: 15px;">
+				{{ range $list }}
+					<p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+				{{ end }}
+			</div>
+		{{ end }}
 </ul>
-		
+
 		<p>The following is the full list of all content posted to this site. Click the date or title to see more details and/or images. You can also just take a look at <a href="https://www.mattlangford.com/photos">all photos</a>.</p>
 
 		<p class="post-note"><strong>Legend:</strong><br>📖 Long Form Posts<br>✏️ Short Update<br>📷 Image</p>

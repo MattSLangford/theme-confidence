@@ -457,8 +457,8 @@ border: none;
 .Bookmark h2.post-title {
 	font-size: 1.4em;
 }
-.Bookmark .post-date:before {
-	Content: "⭐️ ";
+.Bookmark .post-date:after {
+	Content: " Bookmark";
 }
 
 .post p:last-of-type {

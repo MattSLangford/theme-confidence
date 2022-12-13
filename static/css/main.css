@@ -179,6 +179,10 @@ a.finish-reading {
 	font-weight: bold;
 }
 
+.e-content p:first-of-type {
+	margin-top: 0;
+}
+
 /* POST SPACING */
 
 .h-entry {

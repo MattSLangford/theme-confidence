@@ -438,7 +438,6 @@ border: none;
 /* HOME PAGE */
 
 .post {
-	background: var(--post-feed);
 	padding: 1em;
 	margin: 50px 0;
 }

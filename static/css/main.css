@@ -458,11 +458,11 @@ border: none;
 .Bookmark {
 	background: lightgoldenrodyellow;
 }
-.Bookmark h3 {
+.Bookmark h3, .Bookmark-single h3 {
 	font-size: 1.4em;
 	margin-top: 0;
 }
-.Bookmark h3:after {
+.Bookmark h3:after, .Bookmark-single h3:after {
 	content: " →"
 }
 

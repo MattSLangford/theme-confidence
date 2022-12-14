@@ -454,9 +454,7 @@ border: none;
 .Longform {
 	background: #afeeee;
 }
-.Longform .post-date:after {
-	content: " ✭";
-}
+
 .Bookmark {
 	background: lightgoldenrodyellow;
 }

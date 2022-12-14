@@ -458,8 +458,12 @@ border: none;
 .Bookmark {
 	background: lightgoldenrodyellow;
 }
-.Bookmark h2.post-title {
+.Bookmark h3 {
 	font-size: 1.4em;
+	margin-top: 0;
+}
+.Bookmark h3:after {
+	content: " →"
 }
 
 .post p:last-of-type {

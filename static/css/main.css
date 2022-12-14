@@ -455,6 +455,7 @@ border: none;
 
 .Bookmark {
 	background: lightgoldenrodyellow;
+	padding: 1em;
 }
 .Bookmark h3, .Bookmark-single h3 {
 	font-size: 1.4em;

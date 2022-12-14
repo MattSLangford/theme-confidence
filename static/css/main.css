@@ -462,7 +462,7 @@ border: none;
 	font-size: 1.4em;
 	margin-top: 0;
 }
-.Bookmark h3:after, .Bookmark-single h3:after {
+.Bookmark p:first-of-type:after, .Bookmark-single p:first-of-type:after {
 	content: " →"
 }
 

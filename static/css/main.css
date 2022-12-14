@@ -462,9 +462,6 @@ border: none;
 	font-size: 1.4em;
 	margin-top: 0;
 }
-.Bookmark p:first-of-type:after, .Bookmark-single p:first-of-type:after {
-	content: " →"
-}
 
 .post p:last-of-type {
 	margin-bottom: 0;

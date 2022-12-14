@@ -264,6 +264,7 @@ p.post-note {
 
 blockquote {
 	border-left: 5px solid black;
+	margin: 1em;
 }
 blockquote p {
 	padding-left: 15px;

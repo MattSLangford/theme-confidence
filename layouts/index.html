@@ -5,7 +5,8 @@
         <div class="post{{ range .Params.categories }} {{ . }}{{ end }}">
                 <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2 January 2006" }}</time> ⌘</a>
                 {{ if .Title }}
-                <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }} Test</a></h2>
+                {{ else }}
                 {{ end }}
                 {{ if or (not .Title) (and .Title (in .Params.categories "Bookmarks")) }}
 		            <div class="e-content">

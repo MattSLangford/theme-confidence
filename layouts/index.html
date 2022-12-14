@@ -6,7 +6,8 @@
                 <a href="{{ .Permalink }}" class="post-date u-url"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2 January 2006" }}</time> ⌘</a>
                 
                 {{ if or (not .Title) (and .Title (in .Params.categories "Bookmarks")) }}
-					<h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+					{{ if .Title }}
+					<h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>{{ end }}
 		            <div class="e-content">
 		                <p>{{ .Content }}</p>
                     </div>

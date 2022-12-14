@@ -458,10 +458,6 @@ border: none;
 	background: lightgoldenrodyellow;
 	padding: 1em;
 }
-.Bookmark h3, .Bookmark-single h3 {
-	font-size: 1.4em;
-	margin-top: 0;
-}
 
 .post p:last-of-type {
 	margin-bottom: 0;

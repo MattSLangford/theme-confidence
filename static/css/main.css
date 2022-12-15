@@ -92,9 +92,6 @@ header ul li a {
 	text-decoration: none;
 	border: none;
 }
-header ul li a:hover {
-	border-bottom: 2px solid black;
-}
 
 .nav-bar {
 	float: right;
@@ -118,7 +115,7 @@ a {
 a:hover {
 	transition: all 0.1s;
 	border: none;
-	color: var(--main-link-color);
+	color: darkslategrey;
 }
 
 /* HEADERS */

@@ -15,14 +15,12 @@
 		{{ end }}
 
 <h3>All Posts</h3>
-		<p class="post-note"><strong>Legend:</strong><br>📖 Long Form Posts<br>📷 Image</p>
 	{{ $list := (where .Site.Pages "Type" "post") }}
 	{{ range $list }}
-
 		<p class="archive-list">
 			<a href="{{ .Permalink }}" class="u-url"><span class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "2006-01-02" }}</span></a>:
 			{{ if .Title }}
-				<span>📖</span> <a href="{{ .Permalink }}" class="u-url"><span class="p-name"><b>{{ .Title }}</b></span></a>
+				<a href="{{ .Permalink }}" class="u-url"><span class="p-name"><b>{{ .Title }}</b></span></a>
 			{{ else }}
 			<span class="p-summary">
 			{{ if isset .Params "photos" }}📷 {{ .Summary | truncate 50 }}</span>

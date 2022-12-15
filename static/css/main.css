@@ -458,7 +458,9 @@ border: none;
 	background: lightgoldenrodyellow;
 	padding: 1em;
 }
-
+.Bookmark h2 {
+	font-size: 1.5em;
+}
 .post p:last-of-type {
 	margin-bottom: 0;
 }

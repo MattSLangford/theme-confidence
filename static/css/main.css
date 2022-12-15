@@ -93,7 +93,7 @@ header ul li a {
 	border: none;
 }
 header ul li a:hover {
-	border: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 .nav-bar {

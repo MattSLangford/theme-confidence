@@ -180,6 +180,10 @@ a.finish-reading {
 	margin-top: 0;
 }
 
+.reading-time {
+	font-size:15px;
+}
+
 /* MAKE IMAGES FULL WIDTH */
 
 img {

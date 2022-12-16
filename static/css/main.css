@@ -243,17 +243,7 @@ li {
 
 .conversation-on-mb, .reply-by-email {
   border: none;
-  padding: 8px 12px;
-  background: var(--main-link-color);
-  font-weight: normal;
-  color: white;
-  font-size: 1em;
 }
-.conversation-on-mb:hover, .reply-by-email:hover {
-	background: var(--secondary-background-color);
-	color: var(--main-text-color);
-}
-
 
 /* NOTE PARAGRAPH STYLE */
 

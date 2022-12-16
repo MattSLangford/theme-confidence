@@ -242,7 +242,7 @@ li {
 }
 
 .conversation-on-mb, .reply-by-email {
-
+border: none;
 }
 
 /* NOTE PARAGRAPH STYLE */

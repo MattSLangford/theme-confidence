@@ -242,13 +242,7 @@ li {
 }
 
 .conversation-on-mb, .reply-by-email {
-  border: 2px solid black;
-  padding: 5px 10px;
-  border-radius: 20px;
-}
-.conversation-on-mb:hover, .reply-by-email:hover {
-	color: black;
-	background: whitesmoke;
+
 }
 
 /* NOTE PARAGRAPH STYLE */

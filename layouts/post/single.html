@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="post h-entry {{ range .Params.categories }} {{ . }}{{ end }}-single">
   <span class="post-date"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02 15:04:05 -0700" }}">{{ .Date.Format "2 January 2006" }}</time></span>
-  <span class="reading-time">{{ if gt .ReadingTime 1 }}| Reading Time: {{ .ReadingTime }} mins{{ end }}</span>
+  <span class="reading-time">{{ if gt .ReadingTime 1 }}Reading Time: {{ .ReadingTime }} mins{{ end }}</span>
   {{ if .Title }}
     <h2 class="post-title p-name">{{ .Title }}</h2>
   {{ end }}

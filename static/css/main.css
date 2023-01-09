@@ -19,6 +19,7 @@
 	--dracula-cyan: #8be9fd;
 	--dracula-green: #8aff80;
 	--dracula-orange: #ffca80;
+	--dracula-purple: #9580ff;
 }
 
 /* BASIC SETTINGS */
@@ -247,7 +248,11 @@ li {
 }
 
 .conversation-on-mb, .reply-by-email {
-border: none;
+	text-decoration: none;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	background: var(--dracula-purple);
+	color: black;
 }
 
 /* NOTE PARAGRAPH STYLE */

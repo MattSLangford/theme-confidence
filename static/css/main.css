@@ -301,7 +301,7 @@ hr::after {
   content: '***';
   display: block;
   line-height: 1;
-  color: var(--dracula-red);
+  color: var(--dracula-pink);
   text-align: center;
 }
 

@@ -21,6 +21,7 @@
 	--dracula-orange: #ffca80;
 	--dracula-purple: #9580ff;
 	--dracula-red: #ff9580;
+	--dracula-off-black: #414558;
 }
 
 /* BASIC SETTINGS */
@@ -451,12 +452,12 @@ border: none;
 }
 
 .h-feed .Longform {
-	background: black;
+	background: var(--dracula-off-black);
 	border-radius: 10px;
 	padding: 10px;
 }
 .h-feed .Bookmark {
-	background: black;
+	background: var(--dracula-red);
 	border-radius: 10px;
 	padding: 10px;
 }

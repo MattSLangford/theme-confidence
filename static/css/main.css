@@ -16,6 +16,7 @@
 	--black: #000;
 	--white: #fff;
 	--dracula-pink: #ff80bf;
+	--dracula-cyan: #8be9fd;
 }
 
 /* BASIC SETTINGS */
@@ -109,13 +110,11 @@ ul.main-nav {
 /* LINKS */
 
 a {
-	color: var(--main-link-color);
-	text-decoration: none;
-	border-bottom: 2px solid #000;
+	color: var(--dracula-cyan);
 }
 a:hover {
 	transition: all 0.1s;
-	color: #666;
+	opacity: 0.9;
 }
 
 /* HEADERS */

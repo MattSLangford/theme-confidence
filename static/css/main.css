@@ -457,7 +457,7 @@ border: none;
 	padding: 10px;
 }
 .h-feed .Bookmark {
-	background: var(--dracula-red);
+	background: var(--dracula-off-black);
 	border-radius: 10px;
 	padding: 10px;
 }

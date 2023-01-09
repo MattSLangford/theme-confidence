@@ -15,6 +15,7 @@
 	--post-feed: #fff7ed;
 	--black: #000;
 	--white: #fff;
+	--dracula-pink: #ff80bf;
 }
 
 /* BASIC SETTINGS */
@@ -166,6 +167,7 @@ a.post-date, .post-date {
 	border: none;
 	font-size: 15px;
 	font-weight: bold;
+	color: var(--dracula-pink);
 }
 
 a span.dt-published {

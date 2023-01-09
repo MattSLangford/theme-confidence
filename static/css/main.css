@@ -114,6 +114,8 @@ ul.main-nav {
 
 a {
 	color: var(--dracula-cyan);
+	text-decoration: none;
+	border-bottom: 1px solid var(--dracula-cyan);
 }
 a:hover {
 	transition: all 0.1s;
@@ -243,6 +245,7 @@ li {
 	font-size: 15px;
 	letter-spacing: 0.02em;
 	text-transform: uppercase;
+	text-decoration: none;
 }
 
 .microblog_time a:after {

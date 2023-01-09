@@ -60,7 +60,7 @@ header {
 }
 
 header a {
-	color: var(--main-link-color);
+	color: var(--dracula-cyan);
 	border: none;
 }
 header h1 {

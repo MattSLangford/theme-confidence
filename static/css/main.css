@@ -439,22 +439,7 @@ border: none;
 	padding: 0;
 	background: none;
 }
-.Micropost {
-	background: none;
-	padding: 0;
-}
 
-.Longform {
-	background: #afeeee;
-}
-
-.Bookmark {
-	background: lightgoldenrodyellow;
-	padding: 1em;
-}
-.Bookmark h2 {
-	font-size: 1.2em;
-}
 a.bookmark:after {
 	content: " →"
 }

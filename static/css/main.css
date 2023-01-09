@@ -55,7 +55,6 @@ body {
 
 header {
 	color: var(--main-text-color);
-	background: var(--secondary-background-color);
 	width: 100%;
 	padding: 25px 0 25px 0;
 }

@@ -249,7 +249,7 @@ li {
 
 .conversation-on-mb, .reply-by-email {
 	text-decoration: none;
-	padding: 1rem;
+	padding: 0.5rem;
 	border-radius: 0.5rem;
 	background: var(--dracula-purple);
 	color: black;

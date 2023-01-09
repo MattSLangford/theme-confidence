@@ -1,0 +1,22 @@
+.badge {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: var(--rounded-lg);
+  text-transform: uppercase;
+  background-color: var(--accentColor);
+}
+
+.badge .text {
+  text-transform: uppercase;
+}
+
+.badge-subtle {
+  border-width: var(--border-size);
+  border-style: solid;
+}
+
+.badge-outline {
+  border-width: var(--border-size);
+  border-style: solid;
+  background-color: transparent;
+}

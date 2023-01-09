@@ -17,6 +17,7 @@
 	--white: #fff;
 	--dracula-pink: #ff80bf;
 	--dracula-cyan: #8be9fd;
+	--dracula-green: #8aff80;
 }
 
 /* BASIC SETTINGS */
@@ -259,9 +260,8 @@ p.post-note {
 /* ELEMENTS */
 
 blockquote {
-	border-left: 5px solid black;
+	border-left: 5px solid var(--dracula-green);
 	margin: 0.85em;
-	color: #666;
 }
 blockquote p {
 	padding-left: 15px;

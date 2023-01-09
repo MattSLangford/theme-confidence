@@ -20,6 +20,7 @@
 	--dracula-green: #8aff80;
 	--dracula-orange: #ffca80;
 	--dracula-purple: #9580ff;
+	--dracula-red: #ff9580;
 }
 
 /* BASIC SETTINGS */
@@ -301,7 +302,7 @@ hr::after {
   content: '***';
   display: block;
   line-height: 1;
-  color: var(--dracula-green);
+  color: var(--dracula-red);
   text-align: center;
 }
 

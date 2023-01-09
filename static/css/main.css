@@ -150,6 +150,7 @@ h6 {
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	border: none;
+	text-decoration: none;
 }
 
 h2.page-title {
@@ -167,6 +168,7 @@ a.post-date, .post-date {
 	font-size: 15px;
 	font-weight: bold;
 	color: var(--dracula-pink);
+	text-decoration: none;
 }
 
 a span.dt-published {

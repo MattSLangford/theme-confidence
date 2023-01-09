@@ -456,6 +456,9 @@ border: none;
 	padding: 10px;
 }
 .h-feed .Bookmark {
+	background: black;
+	border-radius: 10px;
+	padding: 10px;
 }
 .post p:last-of-type {
 	margin-bottom: 0;

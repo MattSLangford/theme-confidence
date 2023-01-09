@@ -258,6 +258,7 @@ li {
 	border-radius: 0.5rem;
 	background: var(--dracula-purple);
 	color: black;
+	border: none;
 }
 
 /* NOTE PARAGRAPH STYLE */

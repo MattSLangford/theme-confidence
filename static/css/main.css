@@ -302,7 +302,7 @@ hr::after {
   content: '***';
   display: block;
   line-height: 1;
-  color: var(--hr-color);
+  color: var(--dracula-green);
   text-align: center;
 }
 

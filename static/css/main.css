@@ -450,8 +450,12 @@ border: none;
 	background: none;
 }
 
-a.bookmark:after {
-	content: " →"
+.h-feed .longform {
+	background: black;
+	border-radius: 10px;
+	padding: 10px;
+}
+.h-feed .Bookmark {
 }
 .post p:last-of-type {
 	margin-bottom: 0;

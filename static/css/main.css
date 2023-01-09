@@ -310,6 +310,7 @@ pre {
 	background: var(--secondary-background-color);
 	overflow: auto;
 	padding: 10px 25px;
+	border-radius: 10px;
 }
 
 code {

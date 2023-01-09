@@ -59,6 +59,7 @@ header {
 	color: var(--main-text-color);
 	width: 100%;
 	padding: 25px 0 25px 0;
+	background: var(--dracula-off-black);
 }
 
 header a {

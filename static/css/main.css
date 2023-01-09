@@ -18,6 +18,7 @@
 	--dracula-pink: #ff80bf;
 	--dracula-cyan: #8be9fd;
 	--dracula-green: #8aff80;
+	--dracula-orange: #ffca80;
 }
 
 /* BASIC SETTINGS */
@@ -80,10 +81,20 @@ header a img {
 }
 
 header ul {
+	list-style: none;
 	list-style-type: none;
 	margin: 0;
 	font-size: 1.4em;
 	padding: 0;
+}
+
+header ul li:before {
+	content: "\2022";
+  	color: var(--dracula-orange);
+  	font-weight: bold;
+  	display: inline-block;
+  	width: 1em;
+  	margin-left: -1em;
 }
 
 header ul li {

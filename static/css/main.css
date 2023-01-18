@@ -216,7 +216,7 @@ h6 {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	border: none;
 	text-decoration: none;
-	color: var(--ctp-frappe-yellow);
+	color: var(--ctp-frappe-rosewater);
 }
 
 h2.page-title {
@@ -296,7 +296,7 @@ li {
 	margin: 0;
 }
 .microblog_time a {
-	color: var(--ctp-frappe-yellow);
+	color: var(--ctp-frappe-rosewater);
 	border: none;
 	font-weight: normal;
 	font-size: 15px;
@@ -401,7 +401,7 @@ footer {
 }
 
 footer a {
-	border-bottom: 1px solid var(--ctp-frappe-yellow);
+	border-bottom: 1px solid var(--ctp-frappe-rosewater);
 }
 
 footer hr {

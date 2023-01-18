@@ -129,7 +129,7 @@ header h1 {
 }
 header h1 a {
 	border: none;
-	color: var(--ctp-frappe-red);
+	color: var(--ctp-frappe-lavendar);
 }
 header .lead {
 	margin-bottom: 10px;

@@ -395,7 +395,7 @@ footer {
 }
 
 footer a {
-	border-bottom: 1px solid var(--dracula-cyan);
+	border-bottom: 1px solid var(--ctp-frappe-rosewater);
 }
 
 footer hr {
@@ -513,12 +513,12 @@ border: none;
 }
 
 .h-feed .Longform {
-	background: var(--dracula-off-black);
+	background: var(--ctp-frappe-crust);
 	border-radius: 10px;
 	padding: 10px;
 }
 .h-feed .Bookmark {
-	background: var(--dracula-off-black);
+	background: var(--ctp-frappe-mantle);
 	border-radius: 10px;
 	padding: 10px;
 }

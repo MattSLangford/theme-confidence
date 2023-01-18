@@ -120,7 +120,7 @@ header {
 }
 
 header a {
-	color: var(--ctp-frappe-red);
+	color: var(--ctp-frappe-lavender);
 	border: none;
 }
 header h1 {

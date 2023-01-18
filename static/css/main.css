@@ -311,9 +311,12 @@ li {
 	text-decoration: none;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
-	background: var(--ctp-frappe-overlay0);
+	background: var(--ctp-frappe-surface1);
 	color: var(--ctp-frappe-text);
 	border: none;
+}
+.conversation-on-mb:hover, .reply-by-email:hover {
+	background: var(--ctp-frappe-surface2);
 }
 
 /* NOTE PARAGRAPH STYLE */

@@ -361,14 +361,14 @@ hr::after {
 }
 
 pre {
-	background: var(--secondary-background-color);
+	background: var(--ctp-frappe-crust);
 	overflow: auto;
 	padding: 10px 25px;
 	border-radius: 10px;
 }
 
 code {
-	background: var(--secondary-background-color);
+	background: var(--ctp-frappe-crust);
 }
 
 pre code {
@@ -380,7 +380,7 @@ pre code {
 }
 
 .footnote-ref {
-	background: var(--secondary-background-color);
+	background: var(--ctp-frappe-overlay1);
 	border-radius: 5px;
 	padding: 0 2px;
 }

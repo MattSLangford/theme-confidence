@@ -265,7 +265,7 @@ li {
 .microblog_post {
 	margin: 15px 0;
 	padding: 25px;
-	background: var(--secondary-background-color);
+	background: var(--ctp-frappe-surface0);
 	max-width: 500px;
 	border-radius: 0.375rem;
 }

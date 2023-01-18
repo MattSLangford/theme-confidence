@@ -113,10 +113,10 @@ body {
 /* HEADER */
 
 header {
-	color: var(--main-text-color);
+	color: var(--ctp-frappe-text);
 	width: 100%;
 	padding: 25px 0 25px 0;
-	background: var(--dracula-off-black);
+	background: var(--ctp-frappe-crust);
 }
 
 header a {

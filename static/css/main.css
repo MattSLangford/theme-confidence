@@ -172,9 +172,9 @@ ul.main-nav {
 /* LINKS */
 
 a {
-	color: var(--dracula-cyan);
+	color: var(--ctp-frappe-rosewater);
 	text-decoration: none;
-	border-bottom: 1px solid var(--dracula-cyan);
+	border-bottom: 1px solid var(--ctp-frappe-rosewater);
 }
 a:hover {
 	transition: all 0.1s;

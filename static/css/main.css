@@ -310,7 +310,7 @@ li {
 	text-decoration: none;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
-	background: var(--dracula-pink);
+	background: var(--ctp-frappe-surface0);
 	color: black;
 	border: none;
 }

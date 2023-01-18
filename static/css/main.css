@@ -230,7 +230,7 @@ a.post-date, .post-date {
 	border: none;
 	font-size: 15px;
 	font-weight: bold;
-	color: var(--dracula-pink);
+	color: var(--ctp-frappe-blue);
 	text-decoration: none;
 }
 

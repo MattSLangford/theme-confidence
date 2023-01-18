@@ -120,7 +120,7 @@ header {
 }
 
 header a {
-	color: var(--dracula-cyan);
+	color: var(--ctp-frappe-subtext0);
 	border: none;
 }
 header h1 {
@@ -129,7 +129,7 @@ header h1 {
 }
 header h1 a {
 	border: none;
-	color: var(--main-header-color);
+	color: var(--ctp-frappe-subtext0);
 }
 header .lead {
 	margin-bottom: 10px;

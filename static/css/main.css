@@ -294,7 +294,7 @@ li {
 	margin: 0;
 }
 .microblog_time a {
-	color: var(--ctp-frappe-rosewater);
+	color: var(--ctp-frappe-yellow);
 	border: none;
 	font-weight: normal;
 	font-size: 15px;
@@ -399,7 +399,7 @@ footer {
 }
 
 footer a {
-	border-bottom: 1px solid var(--ctp-frappe-rosewater);
+	border-bottom: 1px solid var(--ctp-frappe-yellow);
 }
 
 footer hr {

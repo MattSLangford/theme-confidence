@@ -120,7 +120,7 @@ header {
 }
 
 header a {
-	color: var(--ctp-frappe-rosewater);
+	color: var(--ctp-frappe-red);
 	border: none;
 }
 header h1 {
@@ -129,7 +129,7 @@ header h1 {
 }
 header h1 a {
 	border: none;
-	color: var(--ctp-frappe-rosewater);
+	color: var(--ctp-frappe-red);
 }
 header .lead {
 	margin-bottom: 10px;

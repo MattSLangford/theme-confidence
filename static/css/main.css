@@ -311,14 +311,14 @@ li {
 	padding: 0.5rem;
 	border-radius: 0.5rem;
 	background: var(--ctp-frappe-overlay0);
-	color: var(--ctp-frappe-subtext0);
+	color: var(--ctp-frappe-text);
 	border: none;
 }
 
 /* NOTE PARAGRAPH STYLE */
 
 p.post-note {
-	background: var(--note-background);
+	background: var(--ctp-frappe-surface0);
 	padding: 10px 25px;
 	max-width: fit-content;
 }
@@ -326,7 +326,7 @@ p.post-note {
 /* ELEMENTS */
 
 blockquote {
-	border-left: 5px solid var(--dracula-green);
+	border-left: 5px solid var(--ctp-frappe-maroon);
 	margin: 0.85em;
 }
 blockquote p {

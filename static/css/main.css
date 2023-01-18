@@ -1,27 +1,84 @@
 /* VARIABLES */
 
 :root {
-	--main-accent-color: #20343F;
-	--main-background-color: #1d1e26;
-	--main-text-color: #fff;
-	--secondary-accent-color: #AEAEAE;
-	--main-link-color: #9580ff;
-	--main-link-hover-color: #cb3b69;
-	--main-header-color:  #8be9fd;
-	--secondary-background-color: #383a59;
-	--button-text-color: #fff;
-	--note-background: #ffffe0;
-	--hr-color: #fff;
-	--post-feed: #fff7ed;
-	--black: #000;
-	--white: #fff;
-	--dracula-pink: #ff80bf;
-	--dracula-cyan: #8be9fd;
-	--dracula-green: #8aff80;
-	--dracula-orange: #ffca80;
-	--dracula-purple: #9580ff;
-	--dracula-red: #ff9580;
-	--dracula-off-black: #414558;
+	--ctp-frappe-rosewater: #f2d5cf;
+	--ctp-frappe-rosewater-rgb: rgb(242, 213, 207);
+	--ctp-frappe-rosewater-hsl: hsl(10, 57%, 88%);
+	--ctp-frappe-flamingo: #eebebe;
+	--ctp-frappe-flamingo-rgb: rgb(238, 190, 190);
+	--ctp-frappe-flamingo-hsl: hsl(0, 59%, 84%);
+	--ctp-frappe-pink: #f4b8e4;
+	--ctp-frappe-pink-rgb: rgb(244, 184, 228);
+	--ctp-frappe-pink-hsl: hsl(316, 73%, 84%);
+	--ctp-frappe-mauve: #ca9ee6;
+	--ctp-frappe-mauve-rgb: rgb(202, 158, 230);
+	--ctp-frappe-mauve-hsl: hsl(277, 59%, 76%);
+	--ctp-frappe-red: #e78284;
+	--ctp-frappe-red-rgb: rgb(231, 130, 132);
+	--ctp-frappe-red-hsl: hsl(359, 68%, 71%);
+	--ctp-frappe-maroon: #ea999c;
+	--ctp-frappe-maroon-rgb: rgb(234, 153, 156);
+	--ctp-frappe-maroon-hsl: hsl(358, 66%, 76%);
+	--ctp-frappe-peach: #ef9f76;
+	--ctp-frappe-peach-rgb: rgb(239, 159, 118);
+	--ctp-frappe-peach-hsl: hsl(20, 79%, 70%);
+	--ctp-frappe-yellow: #e5c890;
+	--ctp-frappe-yellow-rgb: rgb(229, 200, 144);
+	--ctp-frappe-yellow-hsl: hsl(40, 62%, 73%);
+	--ctp-frappe-green: #a6d189;
+	--ctp-frappe-green-rgb: rgb(166, 209, 137);
+	--ctp-frappe-green-hsl: hsl(96, 44%, 68%);
+	--ctp-frappe-teal: #81c8be;
+	--ctp-frappe-teal-rgb: rgb(129, 200, 190);
+	--ctp-frappe-teal-hsl: hsl(172, 39%, 65%);
+	--ctp-frappe-sky: #99d1db;
+	--ctp-frappe-sky-rgb: rgb(153, 209, 219);
+	--ctp-frappe-sky-hsl: hsl(189, 48%, 73%);
+	--ctp-frappe-sapphire: #85c1dc;
+	--ctp-frappe-sapphire-rgb: rgb(133, 193, 220);
+	--ctp-frappe-sapphire-hsl: hsl(199, 55%, 69%);
+	--ctp-frappe-blue: #8caaee;
+	--ctp-frappe-blue-rgb: rgb(140, 170, 238);
+	--ctp-frappe-blue-hsl: hsl(222, 74%, 74%);
+	--ctp-frappe-lavender: #babbf1;
+	--ctp-frappe-lavender-rgb: rgb(186, 187, 241);
+	--ctp-frappe-lavender-hsl: hsl(239, 66%, 84%);
+	--ctp-frappe-text: #c6ceef;
+	--ctp-frappe-text-rgb: rgb(198, 206, 239);
+	--ctp-frappe-text-hsl: hsl(228, 56%, 86%);
+	--ctp-frappe-subtext1: #b5bddc;
+	--ctp-frappe-subtext1-rgb: rgb(181, 189, 220);
+	--ctp-frappe-subtext1-hsl: hsl(228, 36%, 79%);
+	--ctp-frappe-subtext0: #a5acc9;
+	--ctp-frappe-subtext0-rgb: rgb(165, 172, 201);
+	--ctp-frappe-subtext0-hsl: hsl(228, 25%, 72%);
+	--ctp-frappe-overlay2: #949bb7;
+	--ctp-frappe-overlay2-rgb: rgb(148, 155, 183);
+	--ctp-frappe-overlay2-hsl: hsl(228, 20%, 65%);
+	--ctp-frappe-overlay1: #838aa4;
+	--ctp-frappe-overlay1-rgb: rgb(131, 138, 164);
+	--ctp-frappe-overlay1-hsl: hsl(227, 15%, 58%);
+	--ctp-frappe-overlay0: #737891;
+	--ctp-frappe-overlay0-rgb: rgb(115, 120, 145);
+	--ctp-frappe-overlay0-hsl: hsl(230, 12%, 51%);
+	--ctp-frappe-surface2: #62677e;
+	--ctp-frappe-surface2-rgb: rgb(98, 103, 126);
+	--ctp-frappe-surface2-hsl: hsl(229, 13%, 44%);
+	--ctp-frappe-surface1: #51566c;
+	--ctp-frappe-surface1-rgb: rgb(81, 86, 108);
+	--ctp-frappe-surface1-hsl: hsl(229, 14%, 37%);
+	--ctp-frappe-surface0: #414559;
+	--ctp-frappe-surface0-rgb: rgb(65, 69, 89);
+	--ctp-frappe-surface0-hsl: hsl(230, 16%, 30%);
+	--ctp-frappe-base: #303446;
+	--ctp-frappe-base-rgb: rgb(48, 52, 70);
+	--ctp-frappe-base-hsl: hsl(229, 19%, 23%);
+	--ctp-frappe-mantle: #292c3c;
+	--ctp-frappe-mantle-rgb: rgb(41, 44, 60);
+	--ctp-frappe-mantle-hsl: hsl(231, 19%, 20%);
+	--ctp-frappe-crust: #232634;
+	--ctp-frappe-crust-rgb: rgb(35, 38, 52);
+	--ctp-frappe-crust-hsl: hsl(229, 20%, 17%);
 }
 
 /* BASIC SETTINGS */
@@ -37,8 +94,8 @@ body {
 	line-height: 1.7;
 	margin: 0;
 	font-size: 18px;
-	background: var(--main-background-color);
-	color: var(--main-text-color);
+	background: var(--ctp-frappe-base);
+	color: var(--ctp-frappe-text);
 }
 
 .container {

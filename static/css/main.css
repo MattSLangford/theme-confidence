@@ -293,7 +293,7 @@ li {
 	margin: 0;
 }
 .microblog_time a {
-	color: var(--secondary-accent-color);
+	color: var(--ctp-frappe-rosewater);
 	border: none;
 	font-weight: normal;
 	font-size: 15px;

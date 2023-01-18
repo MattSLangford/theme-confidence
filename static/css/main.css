@@ -310,8 +310,8 @@ li {
 	text-decoration: none;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
-	background: var(--ctp-frappe-surface0);
-	color: black;
+	background: var(--ctp-frappe-overlay0);
+	color: var(--ctp-frappe-subtext0);
 	border: none;
 }
 
